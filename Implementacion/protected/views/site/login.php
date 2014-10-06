@@ -39,12 +39,8 @@ $this->breadcrumbs=array(
 	</div>
 
 	<div >
-		<?php echo CHtml::submitButton('Submit',array("class"=>"btn btn-primary btn-large")); ?>
+		<?php echo CHtml::submitButton('Ingresar',array("class"=>"btn btn-primary btn-large")); ?>
 		</div>
-		<div >
-		<?php echo CHtml::submitButton('Registro',array("class"=>"btn btn-primary btn-large")); ?>
-	</div>
-	
 	
 
 <?php $this->endWidget(); ?>

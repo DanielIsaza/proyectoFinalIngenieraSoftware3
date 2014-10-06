@@ -6,6 +6,8 @@
 
 <div class="form">
 
+<h1>Registro persona</h1>
+
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'persona-persona-form',
 	// Please note: When you enable ajax validation, make sure the corresponding
@@ -15,7 +17,7 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Campos con <span class="required">*</span> son obligatorios.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
@@ -51,7 +53,7 @@
 
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Submit'); ?>
+		<?php echo CHtml::submitButton('Registrarse',array("class"=>"btn btn-primary btn-large")); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

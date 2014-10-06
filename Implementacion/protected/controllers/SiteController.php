@@ -21,6 +21,30 @@ class SiteController extends Controller
 		);
 	}
 
+	public function actionPersona()
+	{
+	    $model=new Persona('register');
+
+	    // uncomment the following code to enable ajax-based validation
+	    /*
+	    if(isset($_POST['ajax']) && $_POST['ajax']==='persona-persona-form')
+	    {
+	        echo CActiveForm::validate($model);
+	        Yii::app()->end();
+	    }
+	    */
+
+	    if(isset($_POST['Persona']))
+	    {
+	        $model->attributes=$_POST['Persona'];
+	        if($model->validate())
+	        {
+	            // form inputs are valid, do something here
+	            return;
+	        }
+	    }
+	    $this->render('persona',array('model'=>$model));
+	}
 	/**
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.

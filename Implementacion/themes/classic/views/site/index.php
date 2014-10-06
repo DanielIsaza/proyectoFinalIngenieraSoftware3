@@ -47,10 +47,7 @@
     <?php echo $form->passwordField($model,'contrasena',array("class"=>"input-block-level","placeholder"=>"contrasena")); ?>
     <?php echo $form->error($model,'contrasena'); ?>
   <br>
-    <?php echo CHtml::submitButton('Login',array("class"=>"btn btn-primary pull-left")); ?>
-    <div class="span4" style="text-align:left;">
-       <input class="btn btn-primary pull-rigth" type="submit" value="Registrarme"> 
-    </div>
+    <?php echo CHtml::submitButton('Ingresar',array("class"=>"btn btn-primary pull-left")); ?>
 <?php $this->endWidget(); ?>
 
   </div>
