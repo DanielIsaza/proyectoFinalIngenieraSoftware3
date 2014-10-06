@@ -30,7 +30,7 @@
 <div class="span4">
   <div class="well">
   <?php $form=$this->beginWidget('CActiveForm', array(
-      'id'=>'login-form',
+      'id'=>'login',
       'action'=>$this->createUrl("site/login"),
       'htmlOptions'=>array("style"=>"text-align: left"),
       'enableClientValidation'=>true,
@@ -39,20 +39,15 @@
       ),
     )); ?>
       
-    <?php echo $form->labelEx($model,'username'); ?>
-    <?php echo $form->textField($model,'username',array("class"=>"input-block-level","placeholder"=>"Username")); ?>
-    <?php echo $form->error($model,'username'); ?>
+    <?php echo $form->labelEx($model,'login'); ?>
+    <?php echo $form->textField($model,'login',array("class"=>"input-block-level","placeholder"=>"login")); ?>
+    <?php echo $form->error($model,'login'); ?>
 
-    <?php echo $form->labelEx($model,'password'); ?>
-    <?php echo $form->passwordField($model,'password',array("class"=>"input-block-level","placeholder"=>"Password")); ?>
-    <?php echo $form->error($model,'password'); ?>
+    <?php echo $form->labelEx($model,'contrasena'); ?>
+    <?php echo $form->passwordField($model,'contrasena',array("class"=>"input-block-level","placeholder"=>"contrasena")); ?>
+    <?php echo $form->error($model,'contrasena'); ?>
   <br>
-    <?php echo $form->checkBox($model,'rememberMe'); ?>
-    <?php echo $form->label($model,'rememberMe'); ?>
-    <?php echo $form->error($model,'rememberMe'); ?>
-    <div class="span3" style="text-align:rigth;">
-      <?php echo CHtml::submitButton('Login',array("class"=>"btn btn-primary pull-left")); ?>
-    </div>
+    <?php echo CHtml::submitButton('Login',array("class"=>"btn btn-primary pull-left")); ?>
     <div class="span4" style="text-align:left;">
        <input class="btn btn-primary pull-rigth" type="submit" value="Registrarme"> 
     </div>
