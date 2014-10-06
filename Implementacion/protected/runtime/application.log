@@ -83,3 +83,40 @@ REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php
 in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\themes\classic\views\site\index.php (43)
 in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php (34)
 in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/10/06 10:56:16 [error] [php] include(registro.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CValidator.php(186): import()
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(287): createValidator()
+#2 C:\xampp\htdocs\yii\framework\base\CModel.php(260): LoginForm->createValidators()
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(304): LoginForm->getValidators()
+#4 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1414): LoginForm->isAttributeRequired()
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(597): activeLabelEx()
+#6 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\themes\classic\views\site\index.php(43): CActiveForm->labelEx()
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#11 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php(34): SiteController->render()
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CWebApplication->run()
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/site/index.php
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\themes\classic\views\site\index.php (43)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php (34)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/10/06 11:26:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contactus".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('contactus')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('contactus')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contactus')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/site/contactus.php
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/site/index.php
+---

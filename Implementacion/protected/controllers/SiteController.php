@@ -35,7 +35,7 @@ class SiteController extends Controller
 	}
 
 	/**
-	 * This is the action to handle external exceptions.
+	 * This is the action to handle external exceptions
 	 */
 	public function actionError()
 	{
