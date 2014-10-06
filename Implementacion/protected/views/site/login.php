@@ -38,14 +38,13 @@ $this->breadcrumbs=array(
 		<?php echo $form->error($model,'contrasena'); ?>
 	</div>
 
-	<div>
 	<div >
 		<?php echo CHtml::submitButton('Submit',array("class"=>"btn btn-primary btn-large")); ?>
 		</div>
 		<div >
 		<?php echo CHtml::submitButton('Registro',array("class"=>"btn btn-primary btn-large")); ?>
 	</div>
-	</div>
+	
 	
 
 <?php $this->endWidget(); ?>

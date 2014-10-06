@@ -117,8 +117,8 @@ class SiteController extends Controller
         $model->attributes=$_POST['Log'];
         if($model->validate())
         {
-            // form inputs are valid, do something here
-            return;
+           if($model->validate() && $model->login())
+				$this->redirect(Yii::app()->user->returnUrl);
         }
     }
     $this->render('login',array('model'=>$model));
