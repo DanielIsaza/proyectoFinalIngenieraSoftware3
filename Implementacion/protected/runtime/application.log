@@ -777,3 +777,47 @@ Stack trace:
 REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
 HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
 ---
+2014/10/06 15:59:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "persona.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('persona.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('persona.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/persona.ph...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php.php
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/site/index.php
+---
+2014/10/06 16:00:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "persona.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('persona.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('persona.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/persona.ph...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php.php
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/site/index.php
+---
+2014/10/06 16:00:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "persona.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('persona.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('persona.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/persona.ph...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php.php
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+---
+2014/10/06 16:00:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "persona.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('persona.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('persona.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/persona.ph...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php.php
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+---
