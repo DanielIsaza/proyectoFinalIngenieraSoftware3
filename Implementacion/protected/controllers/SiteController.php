@@ -123,6 +123,32 @@ class SiteController extends Controller
 		// display the login form
 		$this->render('login',array('model'=>$model));
 	}*/
+
+	public function actionOrganizacion()
+{
+    $model=new Organizacion('register');
+
+    // uncomment the following code to enable ajax-based validation
+    /*
+    if(isset($_POST['ajax']) && $_POST['ajax']==='organizacion-organizacion-form')
+    {
+        echo CActiveForm::validate($model);
+        Yii::app()->end();
+    }
+    */
+
+    if(isset($_POST['Organizacion']))
+    {
+        $model->attributes=$_POST['Organizacion'];
+        if($model->validate())
+        {
+            // form inputs are valid, do something here
+            $model->save();
+            $this->redirect("index");
+        }
+    }
+    $this->render('organizacion',array('model'=>$model));
+}
 	public function actionLogin()
 {
     $model=new Log('login');
