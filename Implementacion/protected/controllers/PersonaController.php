@@ -2,6 +2,21 @@
 
 class PersonaController extends Controller
 {
+	/*public function actionCreate()
+	{
+		$model=new Persona();
+		if(isset($_POST["persona"]))
+		{
+			$model->attributes=$_POST["persona"];
+			if($model->save())
+			{
+				//$this->redirec("main.php");
+			}
+			
+		}
+		$this->render("create",array("model"=>$model));
+		*/
+	}
 	
 	// Uncomment the following methods and override them if needed
 	/*
@@ -29,4 +44,4 @@ class PersonaController extends Controller
 		);
 	}
 	*/
-}
+}?>

@@ -821,3 +821,146 @@ Stack trace:
 REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php.php
 HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
 ---
+2014/10/06 17:44:54 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `persona` (`numeroDocumento`, `TipoDocumento_id`, `nombres`, `primerApellido`, `segundoApellido`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php (42)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/10/06 17:44:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `persona` (`numeroDocumento`, `TipoDocumento_id`, `nombres`, `primerApellido`, `segundoApellido`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php(42): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionPersona()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('persona')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/persona')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+---
+2014/10/06 17:45:42 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `persona` (`numeroDocumento`, `TipoDocumento_id`, `nombres`, `primerApellido`, `segundoApellido`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php (42)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/10/06 17:45:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `persona` (`numeroDocumento`, `TipoDocumento_id`, `nombres`, `primerApellido`, `segundoApellido`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php(42): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionPersona()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('persona')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/persona')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+---
+2014/10/06 17:47:40 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `persona` (`numeroDocumento`, `TipoDocumento_id`, `nombres`, `primerApellido`, `segundoApellido`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php (42)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/10/06 17:47:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `persona` (`numeroDocumento`, `TipoDocumento_id`, `nombres`, `primerApellido`, `segundoApellido`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php(42): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionPersona()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('persona')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/persona')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+---
+2014/10/06 17:47:46 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `persona` (`numeroDocumento`, `TipoDocumento_id`, `nombres`, `primerApellido`, `segundoApellido`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php (42)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/10/06 17:47:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `persona` (`numeroDocumento`, `TipoDocumento_id`, `nombres`, `primerApellido`, `segundoApellido`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php(42): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionPersona()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('persona')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/persona')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+---
+2014/10/06 17:51:11 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "redirec".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php(43): CComponent->__call('redirec', Array)
+#1 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php(43): SiteController->redirec('index.php')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionPersona()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('persona')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/persona')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+---
+2014/10/06 17:52:09 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "redirec".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php(43): CComponent->__call('redirec', Array)
+#1 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php(43): SiteController->redirec('actionIndex.php')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionPersona()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('persona')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/persona')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+---
+2014/10/06 17:53:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "actionIndex".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('actionIndex')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('actionIndex')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/actionInde...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/site/actionIndex.php
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+---
+2014/10/06 17:54:11 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `persona` (`numeroDocumento`, `TipoDocumento_id`, `nombres`, `primerApellido`, `segundoApellido`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php (42)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/10/06 17:54:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `persona` (`numeroDocumento`, `TipoDocumento_id`, `nombres`, `primerApellido`, `segundoApellido`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\SiteController.php(42): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionPersona()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('persona')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/persona')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/site/persona.php
+---
