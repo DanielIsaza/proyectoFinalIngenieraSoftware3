@@ -39,8 +39,10 @@ class SiteController extends Controller
 	        $model->attributes=$_POST['Persona'];
 	        if($model->validate())
 	        {
-	            // form inputs are valid, do something here
-	            return;
+	            $model->save();
+	            $this->redirect("index");
+	            	            // form inputs are valid, do something here
+	            
 	        }
 	    }
 	    $this->render('persona',array('model'=>$model));

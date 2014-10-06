@@ -1,7 +1,12 @@
 <?php
-/* @var $this PersonaController */
-/* @var $model Persona */
-/* @var $form CActiveForm */
+/* @var $this SiteController */
+/* @var $model LoginForm */
+/* @var $form CActiveForm  */
+
+$this->pageTitle=Yii::app()->name . ' - RegistroPersona';
+$this->breadcrumbs=array(
+	'RegistroPersona',
+);
 ?>
 
 <div class="form">
