@@ -26,31 +26,31 @@ $this->breadcrumbs=array(
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'numeroDocumento'); ?>
 		<?php echo $form->textField($model,'numeroDocumento'); ?>
 		<?php echo $form->error($model,'numeroDocumento'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'TipoDocumento_id'); ?>
 		<?php echo $form->textField($model,'TipoDocumento_id'); ?>
 		<?php echo $form->error($model,'TipoDocumento_id'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'nombres'); ?>
 		<?php echo $form->textField($model,'nombres'); ?>
 		<?php echo $form->error($model,'nombres'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'primerApellido'); ?>
 		<?php echo $form->textField($model,'primerApellido'); ?>
 		<?php echo $form->error($model,'primerApellido'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'segundoApellido'); ?>
 		<?php echo $form->textField($model,'segundoApellido'); ?>
 		<?php echo $form->error($model,'segundoApellido'); ?>

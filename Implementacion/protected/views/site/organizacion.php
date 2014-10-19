@@ -23,61 +23,61 @@ $this->breadcrumbs=array(
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'nit'); ?>
 		<?php echo $form->textField($model,'nit'); ?>
 		<?php echo $form->error($model,'nit'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'nombre'); ?>
 		<?php echo $form->textField($model,'nombre'); ?>
 		<?php echo $form->error($model,'nombre'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'sigla'); ?>
 		<?php echo $form->textField($model,'sigla'); ?>
 		<?php echo $form->error($model,'sigla'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'direccion'); ?>
 		<?php echo $form->textField($model,'direccion'); ?>
 		<?php echo $form->error($model,'direccion'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'telefono'); ?>
 		<?php echo $form->textField($model,'telefono'); ?>
 		<?php echo $form->error($model,'telefono'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'fax'); ?>
 		<?php echo $form->textField($model,'fax'); ?>
 		<?php echo $form->error($model,'fax'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'email'); ?>
 		<?php echo $form->textField($model,'email'); ?>
 		<?php echo $form->error($model,'email'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'sitioWeb'); ?>
 		<?php echo $form->textField($model,'sitioWeb'); ?>
 		<?php echo $form->error($model,'sitioWeb'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'representanteLegal'); ?>
 		<?php echo $form->textField($model,'representanteLegal'); ?>
 		<?php echo $form->error($model,'representanteLegal'); ?>
 	</div>
 
-	<div class="row">
+	<div>
 		<?php echo $form->labelEx($model,'Log_login'); ?>
 		<?php echo $form->textField($model,'Log_login'); ?>
 		<?php echo $form->error($model,'Log_login'); ?>
