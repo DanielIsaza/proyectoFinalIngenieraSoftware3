@@ -4,14 +4,19 @@
  * This is the model class for table "representantelegal".
  *
  * The followings are the available columns in table 'representantelegal':
- * @property string $telefonoFijo
- * @property string $email
+ * @property integer $dni
+ * @property string $nombre
+ * @property string $primerApellido
+ * @property string $segundoApellido
  * @property string $direccion
- * @property string $Persona_numeroDocumento
+ * @property string $telFijo
+ * @property string $email
+ * @property integer $tipoDocumento
+ * @property integer $organizacion
  *
  * The followings are the available model relations:
- * @property Organizacion[] $organizacions
- * @property Persona $personaNumeroDocumento
+ * @property Organizacion $organizacion0
+ * @property Tipodocumento $tipoDocumento0
  */
 class Representantelegal extends CActiveRecord
 {
@@ -31,13 +36,12 @@ class Representantelegal extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Persona_numeroDocumento', 'required'),
-			array('telefonoFijo', 'length', 'max'=>20),
-			array('email, Persona_numeroDocumento', 'length', 'max'=>45),
-			array('direccion', 'length', 'max'=>55),
+			array('dni', 'required'),
+			array('dni, tipoDocumento, organizacion', 'numerical', 'integerOnly'=>true),
+			array('nombre, primerApellido, segundoApellido, direccion, telFijo, email', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('telefonoFijo, email, direccion, Persona_numeroDocumento', 'safe', 'on'=>'search'),
+			array('dni, nombre, primerApellido, segundoApellido, direccion, telFijo, email, tipoDocumento, organizacion', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -49,8 +53,8 @@ class Representantelegal extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'organizacions' => array(self::HAS_MANY, 'Organizacion', 'representanteLegal'),
-			'personaNumeroDocumento' => array(self::BELONGS_TO, 'Persona', 'Persona_numeroDocumento'),
+			'organizacion0' => array(self::BELONGS_TO, 'Organizacion', 'organizacion'),
+			'tipoDocumento0' => array(self::BELONGS_TO, 'Tipodocumento', 'tipoDocumento'),
 		);
 	}
 
@@ -60,10 +64,15 @@ class Representantelegal extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'telefonoFijo' => 'Telefono Fijo',
-			'email' => 'Email',
+			'dni' => 'Dni',
+			'nombre' => 'Nombre',
+			'primerApellido' => 'Primer Apellido',
+			'segundoApellido' => 'Segundo Apellido',
 			'direccion' => 'Direccion',
-			'Persona_numeroDocumento' => 'Persona Numero Documento',
+			'telFijo' => 'Tel Fijo',
+			'email' => 'Email',
+			'tipoDocumento' => 'Tipo Documento',
+			'organizacion' => 'Organizacion',
 		);
 	}
 
@@ -85,10 +94,15 @@ class Representantelegal extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('telefonoFijo',$this->telefonoFijo,true);
-		$criteria->compare('email',$this->email,true);
+		$criteria->compare('dni',$this->dni);
+		$criteria->compare('nombre',$this->nombre,true);
+		$criteria->compare('primerApellido',$this->primerApellido,true);
+		$criteria->compare('segundoApellido',$this->segundoApellido,true);
 		$criteria->compare('direccion',$this->direccion,true);
-		$criteria->compare('Persona_numeroDocumento',$this->Persona_numeroDocumento,true);
+		$criteria->compare('telFijo',$this->telFijo,true);
+		$criteria->compare('email',$this->email,true);
+		$criteria->compare('tipoDocumento',$this->tipoDocumento);
+		$criteria->compare('organizacion',$this->organizacion);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

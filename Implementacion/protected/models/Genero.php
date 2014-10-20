@@ -5,10 +5,10 @@
  *
  * The followings are the available columns in table 'genero':
  * @property integer $id
- * @property string $genero
+ * @property string $nombre
  *
  * The followings are the available model relations:
- * @property Usuario[] $usuarios
+ * @property Persona[] $personas
  */
 class Genero extends CActiveRecord
 {
@@ -28,10 +28,12 @@ class Genero extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('genero', 'length', 'max'=>45),
+			array('id', 'required'),
+			array('id', 'numerical', 'integerOnly'=>true),
+			array('nombre', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, genero', 'safe', 'on'=>'search'),
+			array('id, nombre', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -43,7 +45,7 @@ class Genero extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'usuarios' => array(self::HAS_MANY, 'Usuario', 'genero_id'),
+			'personas' => array(self::HAS_MANY, 'Persona', 'genero'),
 		);
 	}
 
@@ -54,7 +56,7 @@ class Genero extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'genero' => 'Genero',
+			'nombre' => 'Nombre',
 		);
 	}
 
@@ -77,7 +79,7 @@ class Genero extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('genero',$this->genero,true);
+		$criteria->compare('nombre',$this->nombre,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

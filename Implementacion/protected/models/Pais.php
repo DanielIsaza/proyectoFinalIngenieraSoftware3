@@ -9,8 +9,6 @@
  *
  * The followings are the available model relations:
  * @property Departamento[] $departamentos
- * @property Usuario[] $usuarios
- * @property Usuario[] $usuarios1
  */
 class Pais extends CActiveRecord
 {
@@ -30,7 +28,9 @@ class Pais extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nombre', 'length', 'max'=>50),
+			array('id', 'required'),
+			array('id', 'numerical', 'integerOnly'=>true),
+			array('nombre', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, nombre', 'safe', 'on'=>'search'),
@@ -45,9 +45,7 @@ class Pais extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'departamentos' => array(self::HAS_MANY, 'Departamento', 'Pais_id'),
-			'usuarios' => array(self::HAS_MANY, 'Usuario', 'nacionalidad'),
-			'usuarios1' => array(self::HAS_MANY, 'Usuario', 'paisNacimiento'),
+			'departamentos' => array(self::HAS_MANY, 'Departamento', 'pais'),
 		);
 	}
 

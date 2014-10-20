@@ -11,38 +11,43 @@ $this->breadcrumbs=array(
 
 <h1>Login</h1>
 
-<div class="form">
+<p>Please fill out the following form with your login credentials:</p>
 
+<div class="form">
 <?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'log-login-form',
-	// Please note: When you enable ajax validation, make sure the corresponding
-	// controller action is handling ajax validation correctly.
-	// See class documentation of CActiveForm for details on this,
-	// you need to use the performAjaxValidation()-method described there.
-	'enableAjaxValidation'=>false,
+	'id'=>'login-form',
+	'enableClientValidation'=>true,
+	'clientOptions'=>array(
+		'validateOnSubmit'=>true,
+	),
 )); ?>
 
-	<p class="note">Los campos con <span class="required">*</span> son requeridos.</p>
+	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
-	<?php echo $form->errorSummary($model); ?>
-
-	<div >
-		<?php echo $form->labelEx($model,'login'); ?>
-		<?php echo $form->textField($model,'login'); ?>
-		<?php echo $form->error($model,'login'); ?>
+	<div class="row">
+		<?php echo $form->labelEx($model,'username'); ?>
+		<?php echo $form->textField($model,'username'); ?>
+		<?php echo $form->error($model,'username'); ?>
 	</div>
 
-	<div >
-		<?php echo $form->labelEx($model,'contrasena'); ?>
-		<?php echo $form->textField($model,'contrasena'); ?>
-		<?php echo $form->error($model,'contrasena'); ?>
+	<div class="row">
+		<?php echo $form->labelEx($model,'password'); ?>
+		<?php echo $form->passwordField($model,'password'); ?>
+		<?php echo $form->error($model,'password'); ?>
+		<p class="hint">
+			Hint: You may login with <kbd>demo</kbd>/<kbd>demo</kbd> or <kbd>admin</kbd>/<kbd>admin</kbd>.
+		</p>
 	</div>
 
-	<div >
-		<?php echo CHtml::submitButton('Ingresar',array("class"=>"btn btn-primary btn-large")); ?>
-		</div>
-	
+	<div class="row rememberMe">
+		<?php echo $form->checkBox($model,'rememberMe'); ?>
+		<?php echo $form->label($model,'rememberMe'); ?>
+		<?php echo $form->error($model,'rememberMe'); ?>
+	</div>
+
+	<div class="row buttons">
+		<?php echo CHtml::submitButton('Login'); ?>
+	</div>
 
 <?php $this->endWidget(); ?>
-
 </div><!-- form -->

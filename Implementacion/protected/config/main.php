@@ -7,9 +7,8 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Sistema integrado de información',
-	'theme'=>"classic",
-
+	'name'=>'Modulo Comunidad',
+	'theme'=>"chame_blue",
 	// preloading 'log' component
 	'preload'=>array('log'),
 
@@ -24,10 +23,11 @@ return array(
 		
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
-			'password'=>'123',
+			'password'=>'1234',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
+		
 	),
 
 	// application components
@@ -40,8 +40,6 @@ return array(
 		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
-			'showScriptName'=>false,
-			'urlSuffix'=>'.php',
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',

@@ -21,32 +21,6 @@ class SiteController extends Controller
 		);
 	}
 
-	public function actionPersona()
-	{
-	    $model=new Persona('register');
-
-	    // uncomment the following code to enable ajax-based validation
-	    /*
-	    if(isset($_POST['ajax']) && $_POST['ajax']==='persona-persona-form')
-	    {
-	        echo CActiveForm::validate($model);
-	        Yii::app()->end();
-	    }
-	    */
-
-	    if(isset($_POST['Persona']))
-	    {
-	        $model->attributes=$_POST['Persona'];
-	        if($model->validate())
-	        {
-	            $model->save();
-	            $this->redirect("index");
-	            	            // form inputs are valid, do something here
-	            
-	        }
-	    }
-	    $this->render('persona',array('model'=>$model));
-	}
 	/**
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
@@ -55,13 +29,11 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-		$this->layout="main";
-		$model=new Log; 
-		$this->render('index',array("model"=>$model));
+		$this->render('index');
 	}
 
 	/**
-	 * This is the action to handle external exceptions
+	 * This is the action to handle external exceptions.
 	 */
 	public function actionError()
 	{
@@ -103,7 +75,7 @@ class SiteController extends Controller
 	/**
 	 * Displays the login page
 	 */
-	/*public function actionLogin()
+	public function actionLogin()
 	{
 		$model=new LoginForm;
 
@@ -124,57 +96,7 @@ class SiteController extends Controller
 		}
 		// display the login form
 		$this->render('login',array('model'=>$model));
-	}*/
-
-	public function actionOrganizacion()
-{
-    $model=new Organizacion('register');
-
-    // uncomment the following code to enable ajax-based validation
-    /*
-    if(isset($_POST['ajax']) && $_POST['ajax']==='organizacion-organizacion-form')
-    {
-        echo CActiveForm::validate($model);
-        Yii::app()->end();
-    }
-    */
-
-    if(isset($_POST['Organizacion']))
-    {
-        $model->attributes=$_POST['Organizacion'];
-        if($model->validate())
-        {
-            // form inputs are valid, do something here
-            $model->save();
-            $this->redirect("index");
-        }
-    }
-    $this->render('organizacion',array('model'=>$model));
-}
-	public function actionLogin()
-{
-    $model=new Log('login');
-
-    // uncomment the following code to enable ajax-based validation
-    /*
-    if(isset($_POST['ajax']) && $_POST['ajax']==='log-login-form')
-    {
-        echo CActiveForm::validate($model);
-        Yii::app()->end();
-    }
-    */
-
-    if(isset($_POST['Log']))
-    {
-        $model->attributes=$_POST['Log'];
-        if($model->validate())
-        {
-           if($model->validate() && $model->login())
-				$this->redirect(Yii::app()->user->returnUrl);
-        }
-    }
-    $this->render('login',array('model'=>$model));
-}
+	}
 
 	/**
 	 * Logs out the current user and redirect to homepage.

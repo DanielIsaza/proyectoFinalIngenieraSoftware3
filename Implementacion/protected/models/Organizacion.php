@@ -12,13 +12,15 @@
  * @property string $fax
  * @property string $email
  * @property string $sitioWeb
- * @property string $Log_login
- * @property string $representanteLegal
+ * @property integer $ciudad
+ * @property integer $usuario
  *
  * The followings are the available model relations:
- * @property Direccionprofesional[] $direccionprofesionals
- * @property Log $logLogin
- * @property Representantelegal $representanteLegal0
+ * @property Administrador[] $administradors
+ * @property Ciudad $ciudad0
+ * @property Usuario $usuario0
+ * @property Persona[] $personas
+ * @property Representantelegal[] $representantelegals
  */
 class Organizacion extends CActiveRecord
 {
@@ -39,15 +41,11 @@ class Organizacion extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('nit', 'required'),
-			array('nit', 'numerical', 'integerOnly'=>true),
-			array('nombre', 'length', 'max'=>75),
-			array('sigla', 'length', 'max'=>15),
-			array('direccion', 'length', 'max'=>50),
-			array('telefono, fax, email, sitioWeb, representanteLegal', 'length', 'max'=>45),
-			array('Log_login', 'length', 'max'=>12),
+			array('nit, ciudad, usuario', 'numerical', 'integerOnly'=>true),
+			array('nombre, sigla, direccion, telefono, fax, email, sitioWeb', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('nit, nombre, sigla, direccion, telefono, fax, email, sitioWeb, Log_login, representanteLegal', 'safe', 'on'=>'search'),
+			array('nit, nombre, sigla, direccion, telefono, fax, email, sitioWeb, ciudad, usuario', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -59,9 +57,11 @@ class Organizacion extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'direccionprofesionals' => array(self::HAS_MANY, 'Direccionprofesional', 'Organizacion_nit'),
-			'logLogin' => array(self::BELONGS_TO, 'Log', 'Log_login'),
-			'representanteLegal0' => array(self::BELONGS_TO, 'Representantelegal', 'representanteLegal'),
+			'administradors' => array(self::HAS_MANY, 'Administrador', 'organizacion'),
+			'ciudad0' => array(self::BELONGS_TO, 'Ciudad', 'ciudad'),
+			'usuario0' => array(self::BELONGS_TO, 'Usuario', 'usuario'),
+			'personas' => array(self::HAS_MANY, 'Persona', 'organizacion'),
+			'representantelegals' => array(self::HAS_MANY, 'Representantelegal', 'organizacion'),
 		);
 	}
 
@@ -79,8 +79,8 @@ class Organizacion extends CActiveRecord
 			'fax' => 'Fax',
 			'email' => 'Email',
 			'sitioWeb' => 'Sitio Web',
-			'Log_login' => 'Log Login',
-			'representanteLegal' => 'Representante Legal',
+			'ciudad' => 'Ciudad',
+			'usuario' => 'Usuario',
 		);
 	}
 
@@ -110,8 +110,8 @@ class Organizacion extends CActiveRecord
 		$criteria->compare('fax',$this->fax,true);
 		$criteria->compare('email',$this->email,true);
 		$criteria->compare('sitioWeb',$this->sitioWeb,true);
-		$criteria->compare('Log_login',$this->Log_login,true);
-		$criteria->compare('representanteLegal',$this->representanteLegal,true);
+		$criteria->compare('ciudad',$this->ciudad);
+		$criteria->compare('usuario',$this->usuario);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

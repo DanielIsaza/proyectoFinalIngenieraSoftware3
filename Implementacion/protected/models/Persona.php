@@ -1,19 +1,33 @@
-x<?php
+<?php
 
 /**
  * This is the model class for table "persona".
  *
  * The followings are the available columns in table 'persona':
- * @property string $nombres
+ * @property integer $dni
+ * @property string $nombre
  * @property string $primerApellido
  * @property string $segundoApellido
- * @property string $numeroDocumento
- * @property integer $TipoDocumento_id
+ * @property string $nombreBibliografico
+ * @property string $fechaNacimiento
+ * @property integer $direccionR
+ * @property integer $direccionP
+ * @property integer $usuario
+ * @property integer $tipoDocumento
+ * @property integer $genero
+ * @property integer $ciudadExpedicion
+ * @property integer $ciudadNacimiento
+ * @property integer $organizacion
  *
  * The followings are the available model relations:
- * @property Tipodocumento $tipoDocumento
- * @property Representantelegal $representantelegal
- * @property Usuario $usuario
+ * @property Ciudad $ciudadExpedicion0
+ * @property Ciudad $ciudadNacimiento0
+ * @property Direccionp $direccionP0
+ * @property Direccionr $direccionR0
+ * @property Genero $genero0
+ * @property Organizacion $organizacion0
+ * @property Tipodocumento $tipoDocumento0
+ * @property Usuario $usuario0
  */
 class Persona extends CActiveRecord
 {
@@ -33,13 +47,13 @@ class Persona extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('numeroDocumento', 'required'),
-			array('TipoDocumento_id', 'numerical', 'integerOnly'=>true),
-			array('nombres', 'length', 'max'=>50),
-			array('primerApellido, segundoApellido, numeroDocumento', 'length', 'max'=>45),
+			array('dni', 'required'),
+			array('dni, direccionR, direccionP, usuario, tipoDocumento, genero, ciudadExpedicion, ciudadNacimiento, organizacion', 'numerical', 'integerOnly'=>true),
+			array('nombre, primerApellido, segundoApellido, nombreBibliografico', 'length', 'max'=>45),
+			array('fechaNacimiento', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('nombres, primerApellido, segundoApellido, numeroDocumento, TipoDocumento_id', 'safe', 'on'=>'search'),
+			array('dni, nombre, primerApellido, segundoApellido, nombreBibliografico, fechaNacimiento, direccionR, direccionP, usuario, tipoDocumento, genero, ciudadExpedicion, ciudadNacimiento, organizacion', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -51,9 +65,14 @@ class Persona extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'tipoDocumento' => array(self::BELONGS_TO, 'Tipodocumento', 'TipoDocumento_id'),
-			'representantelegal' => array(self::HAS_ONE, 'Representantelegal', 'Persona_numeroDocumento'),
-			'usuario' => array(self::HAS_ONE, 'Usuario', 'Persona_numeroDocumento'),
+			'ciudadExpedicion0' => array(self::BELONGS_TO, 'Ciudad', 'ciudadExpedicion'),
+			'ciudadNacimiento0' => array(self::BELONGS_TO, 'Ciudad', 'ciudadNacimiento'),
+			'direccionP0' => array(self::BELONGS_TO, 'Direccionp', 'direccionP'),
+			'direccionR0' => array(self::BELONGS_TO, 'Direccionr', 'direccionR'),
+			'genero0' => array(self::BELONGS_TO, 'Genero', 'genero'),
+			'organizacion0' => array(self::BELONGS_TO, 'Organizacion', 'organizacion'),
+			'tipoDocumento0' => array(self::BELONGS_TO, 'Tipodocumento', 'tipoDocumento'),
+			'usuario0' => array(self::BELONGS_TO, 'Usuario', 'usuario'),
 		);
 	}
 
@@ -63,11 +82,20 @@ class Persona extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'nombres' => 'Nombres',
+			'dni' => 'Dni',
+			'nombre' => 'Nombre',
 			'primerApellido' => 'Primer Apellido',
 			'segundoApellido' => 'Segundo Apellido',
-			'numeroDocumento' => 'Numero Documento',
-			'TipoDocumento_id' => 'Tipo Documento',
+			'nombreBibliografico' => 'Nombre Bibliografico',
+			'fechaNacimiento' => 'Fecha Nacimiento',
+			'direccionR' => 'Direccion R',
+			'direccionP' => 'Direccion P',
+			'usuario' => 'Usuario',
+			'tipoDocumento' => 'Tipo Documento',
+			'genero' => 'Genero',
+			'ciudadExpedicion' => 'Ciudad Expedicion',
+			'ciudadNacimiento' => 'Ciudad Nacimiento',
+			'organizacion' => 'Organizacion',
 		);
 	}
 
@@ -89,11 +117,20 @@ class Persona extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('nombres',$this->nombres,true);
+		$criteria->compare('dni',$this->dni);
+		$criteria->compare('nombre',$this->nombre,true);
 		$criteria->compare('primerApellido',$this->primerApellido,true);
 		$criteria->compare('segundoApellido',$this->segundoApellido,true);
-		$criteria->compare('numeroDocumento',$this->numeroDocumento,true);
-		$criteria->compare('TipoDocumento_id',$this->TipoDocumento_id);
+		$criteria->compare('nombreBibliografico',$this->nombreBibliografico,true);
+		$criteria->compare('fechaNacimiento',$this->fechaNacimiento,true);
+		$criteria->compare('direccionR',$this->direccionR);
+		$criteria->compare('direccionP',$this->direccionP);
+		$criteria->compare('usuario',$this->usuario);
+		$criteria->compare('tipoDocumento',$this->tipoDocumento);
+		$criteria->compare('genero',$this->genero);
+		$criteria->compare('ciudadExpedicion',$this->ciudadExpedicion);
+		$criteria->compare('ciudadNacimiento',$this->ciudadNacimiento);
+		$criteria->compare('organizacion',$this->organizacion);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

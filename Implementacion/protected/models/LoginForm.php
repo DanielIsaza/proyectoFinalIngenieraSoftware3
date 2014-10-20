@@ -10,7 +10,6 @@ class LoginForm extends CFormModel
 	public $username;
 	public $password;
 	public $rememberMe;
-	public $registrarme;
 
 	private $_identity;
 
@@ -75,6 +74,4 @@ class LoginForm extends CFormModel
 		else
 			return false;
 	}
-
-	
 }

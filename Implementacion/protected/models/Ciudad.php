@@ -6,11 +6,15 @@
  * The followings are the available columns in table 'ciudad':
  * @property integer $id
  * @property string $nombre
- * @property integer $Departamento_id
+ * @property integer $departamento
  *
  * The followings are the available model relations:
- * @property Departamento $departamento
- * @property Usuario[] $usuarios
+ * @property Departamento $departamento0
+ * @property Direccionp[] $direccionps
+ * @property Direccionr[] $direccionrs
+ * @property Organizacion[] $organizacions
+ * @property Persona[] $personas
+ * @property Persona[] $personas1
  */
 class Ciudad extends CActiveRecord
 {
@@ -30,11 +34,12 @@ class Ciudad extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Departamento_id', 'numerical', 'integerOnly'=>true),
-			array('nombre', 'length', 'max'=>50),
+			array('id', 'required'),
+			array('id, departamento', 'numerical', 'integerOnly'=>true),
+			array('nombre', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, nombre, Departamento_id', 'safe', 'on'=>'search'),
+			array('id, nombre, departamento', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -46,8 +51,12 @@ class Ciudad extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'departamento' => array(self::BELONGS_TO, 'Departamento', 'Departamento_id'),
-			'usuarios' => array(self::HAS_MANY, 'Usuario', 'ciudadNacimiento'),
+			'departamento0' => array(self::BELONGS_TO, 'Departamento', 'departamento'),
+			'direccionps' => array(self::HAS_MANY, 'Direccionp', 'ciudad'),
+			'direccionrs' => array(self::HAS_MANY, 'Direccionr', 'ciudad'),
+			'organizacions' => array(self::HAS_MANY, 'Organizacion', 'ciudad'),
+			'personas' => array(self::HAS_MANY, 'Persona', 'ciudadExpedicion'),
+			'personas1' => array(self::HAS_MANY, 'Persona', 'ciudadNacimiento'),
 		);
 	}
 
@@ -59,7 +68,7 @@ class Ciudad extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'nombre' => 'Nombre',
-			'Departamento_id' => 'Departamento',
+			'departamento' => 'Departamento',
 		);
 	}
 
@@ -83,7 +92,7 @@ class Ciudad extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('nombre',$this->nombre,true);
-		$criteria->compare('Departamento_id',$this->Departamento_id);
+		$criteria->compare('departamento',$this->departamento);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
