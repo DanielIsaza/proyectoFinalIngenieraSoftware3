@@ -17,13 +17,13 @@ $this->pageTitle=Yii::app()->name;
   <div class="well">
 
         <form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        <input type="text" class="input-block-level" placeholder="Email address">
-        <input type="password" class="input-block-level" placeholder="Password">
+        <h2 class="form-signin-heading">Ingreso de usuarios</h2>
+        <input type="text" class="input-block-level" placeholder="Usuario">
+        <input type="password" class="input-block-level" placeholder="Contraseña">
         <label class="checkbox">
-          <input type="checkbox" value="remember-me"> Remember me
+          <input type="checkbox" value="remember-me"> Recordarme
         </label>
-        <button class="btn btn-primary btn-large btn-block" type="submit">Sign in</button>
+        <button class="btn btn-primary btn-large btn-block" type="submit">Ingresar</button>
       </form>
 
   </div>
