@@ -78,7 +78,7 @@ class SiteController extends Controller
 	*/
 	public function actionRegistrar()
 	{
-
+		$this->render('/users/registarPersona');
 	}
 
 	/**
