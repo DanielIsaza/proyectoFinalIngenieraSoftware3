@@ -73,6 +73,13 @@ class SiteController extends Controller
 		}
 		$this->render('contact',array('model'=>$model));
 	}
+	/**
+	* Acción para ingresar al formulario de registro
+	*/
+	public function actionRegistrar()
+	{
+
+	}
 
 	/**
 	 * Displays the login page
