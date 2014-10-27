@@ -1,18 +1,18 @@
 <?php
-/* @var $this PublicacionController */
+/* @var $this ProyectoController */
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Publicacions',
+	'Proyectos',
 );
 
 $this->menu=array(
-	array('label'=>'Create Publicacion', 'url'=>array('create')),
-	array('label'=>'Manage Publicacion', 'url'=>array('admin')),
+	array('label'=>'Create Proyecto', 'url'=>array('create')),
+	array('label'=>'Manage Proyecto', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Publicacions</h1>
+<h1>Proyectos</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

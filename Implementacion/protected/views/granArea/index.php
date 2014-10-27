@@ -1,18 +1,18 @@
 <?php
-/* @var $this PublicacionController */
+/* @var $this GranAreaController */
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Publicacions',
+	'Gran Areas',
 );
 
 $this->menu=array(
-	array('label'=>'Create Publicacion', 'url'=>array('create')),
-	array('label'=>'Manage Publicacion', 'url'=>array('admin')),
+	array('label'=>'Create GranArea', 'url'=>array('create')),
+	array('label'=>'Manage GranArea', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Publicacions</h1>
+<h1>Gran Areas</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

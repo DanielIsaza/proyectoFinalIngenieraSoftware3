@@ -1,18 +1,18 @@
 <?php
-/* @var $this PublicacionController */
+/* @var $this RedController */
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Publicacions',
+	'Reds',
 );
 
 $this->menu=array(
-	array('label'=>'Create Publicacion', 'url'=>array('create')),
-	array('label'=>'Manage Publicacion', 'url'=>array('admin')),
+	array('label'=>'Create Red', 'url'=>array('create')),
+	array('label'=>'Manage Red', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Publicacions</h1>
+<h1>Reds</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

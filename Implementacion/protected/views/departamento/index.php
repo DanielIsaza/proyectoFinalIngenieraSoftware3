@@ -1,18 +1,18 @@
 <?php
-/* @var $this PublicacionController */
+/* @var $this DepartamentoController */
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Publicacions',
+	'Departamentos',
 );
 
 $this->menu=array(
-	array('label'=>'Create Publicacion', 'url'=>array('create')),
-	array('label'=>'Manage Publicacion', 'url'=>array('admin')),
+	array('label'=>'Create Departamento', 'url'=>array('create')),
+	array('label'=>'Manage Departamento', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Publicacions</h1>
+<h1>Departamentos</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
