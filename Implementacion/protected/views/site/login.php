@@ -42,7 +42,7 @@ $this->breadcrumbs=array(
 	</div>
 
 	<div class="buttons span2">
-		<?php echo CHtml::submitButton('Ingresar',array("class"=>"btn btn-primary btn-large")); ?>
+		<?php echo CHtml::submitButton('Ingresar',); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

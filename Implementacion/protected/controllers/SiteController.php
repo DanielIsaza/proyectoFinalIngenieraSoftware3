@@ -35,6 +35,84 @@ class SiteController extends Controller
 	}
 
 	/**
+	* Acción para ingresar al formulario de registro
+	*/
+	public function actionPersona()
+	{
+		$model = new Persona;
+		$modelu = new Usuario;
+		$modeldp = new Direccionp;
+		$modeldr = new Direccionr;
+		$verifyCode= new CodigoVerificacion;
+
+		$this->render('persona',array('model'=>$model,'modelu'=>$modelu,'modeldp'=>$modeldp,'modeldr'=>$modeldr,'verifyCode'=>$verifyCode));
+
+		if(isset($_POST['Persona']) and isset($_POST['Direccionp']) and isset($_POST['Direccionr']) and isset($_POST['Usuario']))
+		{
+			$model->attributes=$_POST['Persona'];
+			$modelu->attributes=$_POST['Usuario'];
+			$modelu->password=sha1($_POST['Usuario']['password']);
+			$modeldp->attributes=$_POST['Direccionp'];
+			$modeldr->attributes=$_POST['Direccionr'];
+			$verifyCode->attributes=$_POST['CodigoVerificacion'];
+
+			if($verifyCode->validate())
+	        {
+				$modelu->save();
+				$model->save();
+				$modeldp->save();
+				$modeldr->save();
+			}
+			else
+			{
+				echo "pendejo !";
+			}
+			
+		}
+	}
+
+	/**
+	*
+	*/
+	public function actionOrganizacion()
+	{
+
+	    $model=new Organizacion;
+		$modelu = new Usuario;
+		$modelrp= new Representantelegal;
+		$modelad = new Administrador;
+		$verifyCode= new CodigoVerificacion;
+
+	    // uncomment the following code to enable ajax-based validation
+	    /*
+	    if(isset($_POST['ajax']) && $_POST['ajax']==='organizacion-organizacion-form')
+	    {
+	        echo CActiveForm::validate($model);
+	        Yii::app()->end();
+	    }
+	    */
+	
+		if(isset($_POST['Organizacion']) and isset($_POST['Usuario']) and isset($_POST['Representantelegal']))
+	    {
+	    	$modelu->attributes=$_POST['Usuario'];
+			$modelu->password=sha1($_POST['Usuario']['password']);
+	        $model->attributes=$_POST['Organizacion'];
+	        $modelrp->attributes=$_POST['Representantelegal'];
+    		$verifyCode->attributes=$_POST['CodigoVerificacion'];
+
+	        if($verifyCode->validate())
+	        {
+	        	$modelu->save();
+	        	$model->save();
+	        	$modelrp->save();
+
+	            // form inputs are valid, do something here
+	        }
+	    }
+	    $this->render('organizacion',array('model'=>$model,'modelu'=>$modelu,'modelad'=>$modelad,'modelrp'=>$modelrp,'verifyCode'=>$verifyCode));
+	}
+
+	/**
 	 * This is the action to handle external exceptions.
 	 */
 	public function actionError()
@@ -73,13 +151,7 @@ class SiteController extends Controller
 		}
 		$this->render('contact',array('model'=>$model));
 	}
-	/**
-	* Acción para ingresar al formulario de registro
-	*/
-	public function actionRegistrar()
-	{
-		$this->render('/users/registarPersona');
-	}
+
 
 	/**
 	 * Displays the login page
