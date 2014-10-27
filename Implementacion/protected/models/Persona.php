@@ -20,6 +20,13 @@
  * @property integer $organizacion
  *
  * The followings are the available model relations:
+ * @property Centro[] $centros
+ * @property Convocatoria[] $convocatorias
+ * @property Evento[] $eventos
+ * @property Evento[] $eventos1
+ * @property Grupo[] $grupos
+ * @property Grupo[] $grupos1
+ * @property Grupo[] $grupos2
  * @property Ciudad $ciudadExpedicion0
  * @property Ciudad $ciudadNacimiento0
  * @property Direccionp $direccionP0
@@ -28,6 +35,9 @@
  * @property Organizacion $organizacion0
  * @property Tipodocumento $tipoDocumento0
  * @property Usuario $usuario0
+ * @property Proyecto[] $proyectos
+ * @property Publicacion[] $publicacions
+ * @property Red[] $reds
  */
 class Persona extends CActiveRecord
 {
@@ -65,6 +75,13 @@ class Persona extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'centros' => array(self::MANY_MANY, 'Centro', 'centro_persona(id_persona, id_centro)'),
+			'convocatorias' => array(self::HAS_MANY, 'Convocatoria', 'persona'),
+			'eventos' => array(self::HAS_MANY, 'Evento', 'expositor'),
+			'eventos1' => array(self::MANY_MANY, 'Evento', 'evento_persona(id_persona, id_evento)'),
+			'grupos' => array(self::HAS_MANY, 'Grupo', 'codirector'),
+			'grupos1' => array(self::HAS_MANY, 'Grupo', 'director'),
+			'grupos2' => array(self::MANY_MANY, 'Grupo', 'grupo_persona(id_persona, id_grupo)'),
 			'ciudadExpedicion0' => array(self::BELONGS_TO, 'Ciudad', 'ciudadExpedicion'),
 			'ciudadNacimiento0' => array(self::BELONGS_TO, 'Ciudad', 'ciudadNacimiento'),
 			'direccionP0' => array(self::BELONGS_TO, 'Direccionp', 'direccionP'),
@@ -73,6 +90,9 @@ class Persona extends CActiveRecord
 			'organizacion0' => array(self::BELONGS_TO, 'Organizacion', 'organizacion'),
 			'tipoDocumento0' => array(self::BELONGS_TO, 'Tipodocumento', 'tipoDocumento'),
 			'usuario0' => array(self::BELONGS_TO, 'Usuario', 'usuario'),
+			'proyectos' => array(self::MANY_MANY, 'Proyecto', 'proyecto_persona(id_persona, id_proyecto)'),
+			'publicacions' => array(self::MANY_MANY, 'Publicacion', 'publicacion_persona(id_persona, id_publicacion)'),
+			'reds' => array(self::MANY_MANY, 'Red', 'red_persona(id_persona, id_red)'),
 		);
 	}
 

@@ -20,6 +20,7 @@
  * @property Ciudad $ciudad0
  * @property Usuario $usuario0
  * @property Persona[] $personas
+ * @property Proyecto[] $proyectos
  * @property Representantelegal[] $representantelegals
  */
 class Organizacion extends CActiveRecord
@@ -61,6 +62,7 @@ class Organizacion extends CActiveRecord
 			'ciudad0' => array(self::BELONGS_TO, 'Ciudad', 'ciudad'),
 			'usuario0' => array(self::BELONGS_TO, 'Usuario', 'usuario'),
 			'personas' => array(self::HAS_MANY, 'Persona', 'organizacion'),
+			'proyectos' => array(self::HAS_MANY, 'Proyecto', 'organizacion'),
 			'representantelegals' => array(self::HAS_MANY, 'Representantelegal', 'organizacion'),
 		);
 	}

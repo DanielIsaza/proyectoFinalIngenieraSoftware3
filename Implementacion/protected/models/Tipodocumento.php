@@ -12,7 +12,7 @@
  * @property Persona[] $personas
  * @property Representantelegal[] $representantelegals
  */
-class Tipodocumento extends CActiveRecord
+class TipoDocumento extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
@@ -94,7 +94,7 @@ class Tipodocumento extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Tipodocumento the static model class
+	 * @return TipoDocumento the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

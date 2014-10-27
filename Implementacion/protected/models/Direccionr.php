@@ -17,9 +17,10 @@
  *
  * The followings are the available model relations:
  * @property Ciudad $ciudad0
+ * @property Grupo[] $grupos
  * @property Persona[] $personas
  */
-class Direccionr extends CActiveRecord
+class DireccionR extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
@@ -37,8 +38,7 @@ class Direccionr extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id', 'required'),
-			array('id, ciudad', 'numerical', 'integerOnly'=>true),
+			array('ciudad', 'numerical', 'integerOnly'=>true),
 			array('direccion, barrio, telFijo, telMovil, apartadoPostal, codPostal, email, SitioWeb', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
@@ -55,6 +55,7 @@ class Direccionr extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'ciudad0' => array(self::BELONGS_TO, 'Ciudad', 'ciudad'),
+			'grupos' => array(self::HAS_MANY, 'Grupo', 'direccion'),
 			'personas' => array(self::HAS_MANY, 'Persona', 'direccionR'),
 		);
 	}
@@ -116,7 +117,7 @@ class Direccionr extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Direccionr the static model class
+	 * @return DireccionR the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
