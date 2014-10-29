@@ -55,13 +55,11 @@ class SiteController extends Controller
 			$modeldp->attributes=$_POST['Direccionp'];
 			$modeldr->attributes=$_POST['Direccionr'];
 			$verifyCode->attributes=$_POST['CodigoVerificacion'];
-
-			if($verifyCode->validate())
+			//$verifyCode->validate();
+			var_dump($modeldp);
+			if($model->save()  and $modelu->save() and $modeldp->save() and $modeldr->save())
 	        {
-				$modelu->save();
-				$model->save();
-				$modeldp->save();
-				$modeldr->save();
+	        	echo "sirvio este mk";
 			}
 			else
 			{
