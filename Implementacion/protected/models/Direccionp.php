@@ -18,7 +18,7 @@
  * @property Ciudad $ciudad0
  * @property Persona[] $personas
  */
-class Direccionp extends CActiveRecord
+class DireccionP extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
@@ -36,8 +36,7 @@ class Direccionp extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id', 'required'),
-			array('id, ciudad', 'numerical', 'integerOnly'=>true),
+			array('ciudad', 'numerical', 'integerOnly'=>true),
 			array('direccion, barrio, telFijo, apartadoPostal, codigoPostal, email, sitioWeb', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
@@ -113,7 +112,7 @@ class Direccionp extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Direccionp the static model class
+	 * @return DireccionP the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
