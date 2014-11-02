@@ -27,5 +27,6 @@ $this->menu=array(
 		'fecha',
 		'expositor',
 		'informacion',
+		'areaConocimiento',
 	),
 )); ?>

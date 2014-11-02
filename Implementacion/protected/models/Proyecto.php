@@ -9,10 +9,12 @@
  * @property integer $estado
  * @property string $fechaInicio
  * @property string $fechaFin
+ * @property integer $areaConocimiento
  * @property integer $organizacion
  *
  * The followings are the available model relations:
  * @property Producto[] $productos
+ * @property Areaconocimiento $areaConocimiento0
  * @property Organizacion $organizacion0
  * @property Persona[] $personas
  */
@@ -34,12 +36,12 @@ class Proyecto extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('estado, organizacion', 'numerical', 'integerOnly'=>true),
+			array('estado, areaConocimiento, organizacion', 'numerical', 'integerOnly'=>true),
 			array('nombre', 'length', 'max'=>100),
 			array('fechaInicio, fechaFin', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, nombre, estado, fechaInicio, fechaFin, organizacion', 'safe', 'on'=>'search'),
+			array('id, nombre, estado, fechaInicio, fechaFin, areaConocimiento, organizacion', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -52,6 +54,7 @@ class Proyecto extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'productos' => array(self::HAS_MANY, 'Producto', 'proyecto'),
+			'areaConocimiento0' => array(self::BELONGS_TO, 'Areaconocimiento', 'areaConocimiento'),
 			'organizacion0' => array(self::BELONGS_TO, 'Organizacion', 'organizacion'),
 			'personas' => array(self::MANY_MANY, 'Persona', 'proyecto_persona(id_proyecto, id_persona)'),
 		);
@@ -68,6 +71,7 @@ class Proyecto extends CActiveRecord
 			'estado' => 'Estado',
 			'fechaInicio' => 'Fecha Inicio',
 			'fechaFin' => 'Fecha Fin',
+			'areaConocimiento' => 'Area Conocimiento',
 			'organizacion' => 'Organizacion',
 		);
 	}
@@ -95,6 +99,7 @@ class Proyecto extends CActiveRecord
 		$criteria->compare('estado',$this->estado);
 		$criteria->compare('fechaInicio',$this->fechaInicio,true);
 		$criteria->compare('fechaFin',$this->fechaFin,true);
+		$criteria->compare('areaConocimiento',$this->areaConocimiento);
 		$criteria->compare('organizacion',$this->organizacion);
 
 		return new CActiveDataProvider($this, array(

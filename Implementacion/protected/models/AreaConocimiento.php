@@ -9,7 +9,9 @@
  *
  * The followings are the available model relations:
  * @property Convocatoria[] $convocatorias
+ * @property Evento[] $eventos
  * @property Grupo[] $grupos
+ * @property Proyecto[] $proyectos
  * @property Red[] $reds
  */
 class AreaConocimiento extends CActiveRecord
@@ -46,7 +48,9 @@ class AreaConocimiento extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'convocatorias' => array(self::HAS_MANY, 'Convocatoria', 'areaConocimiento'),
+			'eventos' => array(self::HAS_MANY, 'Evento', 'areaConocimiento'),
 			'grupos' => array(self::HAS_MANY, 'Grupo', 'areaConocimiento'),
+			'proyectos' => array(self::HAS_MANY, 'Proyecto', 'areaConocimiento'),
 			'reds' => array(self::HAS_MANY, 'Red', 'areaconocimiento'),
 		);
 	}

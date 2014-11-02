@@ -26,6 +26,7 @@ $this->menu=array(
 		'estado',
 		'fechaInicio',
 		'fechaFin',
+		'areaConocimiento',
 		'organizacion',
 	),
 )); ?>

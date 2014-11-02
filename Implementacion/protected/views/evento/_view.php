@@ -29,5 +29,9 @@
 	<?php echo CHtml::encode($data->informacion); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('areaConocimiento')); ?>:</b>
+	<?php echo CHtml::encode($data->areaConocimiento); ?>
+	<br />
+
 
 </div>

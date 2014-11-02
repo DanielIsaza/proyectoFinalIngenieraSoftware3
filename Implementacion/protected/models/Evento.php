@@ -10,8 +10,10 @@
  * @property string $fecha
  * @property integer $expositor
  * @property string $informacion
+ * @property integer $areaConocimiento
  *
  * The followings are the available model relations:
+ * @property Areaconocimiento $areaConocimiento0
  * @property Persona $expositor0
  * @property Tipoevento $tipo0
  * @property Persona[] $personas
@@ -34,13 +36,13 @@ class Evento extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('tipo, expositor', 'numerical', 'integerOnly'=>true),
+			array('tipo, expositor, areaConocimiento', 'numerical', 'integerOnly'=>true),
 			array('nombre', 'length', 'max'=>100),
 			array('informacion', 'length', 'max'=>500),
 			array('fecha', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, nombre, tipo, fecha, expositor, informacion', 'safe', 'on'=>'search'),
+			array('id, nombre, tipo, fecha, expositor, informacion, areaConocimiento', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -52,6 +54,7 @@ class Evento extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'areaConocimiento0' => array(self::BELONGS_TO, 'Areaconocimiento', 'areaConocimiento'),
 			'expositor0' => array(self::BELONGS_TO, 'Persona', 'expositor'),
 			'tipo0' => array(self::BELONGS_TO, 'Tipoevento', 'tipo'),
 			'personas' => array(self::MANY_MANY, 'Persona', 'evento_persona(id_evento, id_persona)'),
@@ -70,6 +73,7 @@ class Evento extends CActiveRecord
 			'fecha' => 'Fecha',
 			'expositor' => 'Expositor',
 			'informacion' => 'Informacion',
+			'areaConocimiento' => 'Area Conocimiento',
 		);
 	}
 
@@ -97,6 +101,7 @@ class Evento extends CActiveRecord
 		$criteria->compare('fecha',$this->fecha,true);
 		$criteria->compare('expositor',$this->expositor);
 		$criteria->compare('informacion',$this->informacion,true);
+		$criteria->compare('areaConocimiento',$this->areaConocimiento);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

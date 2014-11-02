@@ -44,6 +44,12 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->labelEx($model,'areaConocimiento'); ?>
+		<?php echo $form->textField($model,'areaConocimiento'); ?>
+		<?php echo $form->error($model,'areaConocimiento'); ?>
+	</div>
+
+	<div class="row">
 		<?php echo $form->labelEx($model,'organizacion'); ?>
 		<?php echo $form->textField($model,'organizacion'); ?>
 		<?php echo $form->error($model,'organizacion'); ?>

@@ -41,6 +41,11 @@
 		<?php echo $form->textField($model,'informacion',array('size'=>60,'maxlength'=>500)); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->label($model,'areaConocimiento'); ?>
+		<?php echo $form->textField($model,'areaConocimiento'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>
 	</div>

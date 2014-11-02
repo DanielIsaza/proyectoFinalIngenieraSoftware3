@@ -25,6 +25,10 @@
 	<?php echo CHtml::encode($data->fechaFin); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('areaConocimiento')); ?>:</b>
+	<?php echo CHtml::encode($data->areaConocimiento); ?>
+	<br />
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('organizacion')); ?>:</b>
 	<?php echo CHtml::encode($data->organizacion); ?>
 	<br />

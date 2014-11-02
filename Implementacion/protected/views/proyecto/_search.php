@@ -37,6 +37,11 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->label($model,'areaConocimiento'); ?>
+		<?php echo $form->textField($model,'areaConocimiento'); ?>
+	</div>
+
+	<div class="row">
 		<?php echo $form->label($model,'organizacion'); ?>
 		<?php echo $form->textField($model,'organizacion'); ?>
 	</div>
