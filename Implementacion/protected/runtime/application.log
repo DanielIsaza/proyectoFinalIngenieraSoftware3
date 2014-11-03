@@ -4869,3 +4869,2000 @@ Stack trace:
 REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455846e77e7c
 HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
 ---
+2014/11/02 02:48:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=54558d5174469
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:00:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=545590429d4f8
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:03:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=545590fc35f1e
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:03:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=54559105a5a63
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:04:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=54559137888f8
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:04:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455913e2ae72
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:10:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455927826029
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:10:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455927826029
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:12:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=545592fee1ed5
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:13:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455932bdfdeb
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:13:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=54559349a2078
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:14:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455938ba2767
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:14:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=54559395789b9
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:15:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=545593cf9e878
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:16:29 [error] [php] Undefined index: Direccionr (C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\personaController.php:17)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): personaController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): personaController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): personaController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CWebApplication->run()
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\personaController.php (17)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/11/02 03:16:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=545593fd0a7b4
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:17:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=54559436a7895
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:17:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455944a93100
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=54559473cc08f
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:19:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455949f8904c
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 03:19:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=545594c2cce4d
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 04:30:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455a55cc19a6
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 04:31:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455a5770d0fc
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 04:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455a8bb1baa8
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 04:51:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455aa472c3ac
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 04:51:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455aa4dd5eeb
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:02:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455acc3abdc8
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:02:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455ace35f137
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:04:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455ad341622e
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:04:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455ad4b132bb
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:14:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455afc07da85
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:15:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455afd23342d
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:15:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455afec9ec83
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:21:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b146a2088
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:24:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b205c0a84
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:26:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b2938a41e
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:27:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b2ac04125
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:28:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b2de68f80
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b2f832be8
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:31:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b3ae6097e
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b3bf68978
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:33:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b4104138d
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b44286fda
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:38:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b52a36128
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b5dacd7dd
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:41:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b5f7524ea
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:42:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b64cad53a
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:42:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b64d1e818
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:42:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b64d752d6
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:42:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b64dc82fb
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:43:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b66219b3a
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:49:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b7bcd30dc
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:49:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b7d65c067
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:50:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b8020a9a9
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:50:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b80573a1d
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 05:55:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455b9457896d
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:06:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bbec27a5d
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:07:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bbfb749c1
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:07:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bc13be8da
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:07:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bc1d82c68
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:07:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bc21c4b59
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:08:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bc5e32b25
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bc87dbeb9
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:09:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bca45041a
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:10:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bcb8d7d4d
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:10:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bcd3dfde1
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:11:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bcedd6718
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:11:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bcfaf32de
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:12:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bd225984a
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bd3fe5665
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:13:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bd7ccd3f9
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:15:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bdd72f549
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:18:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455be9c54fee
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455beb4c565d
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 06:19:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5455bed89aaf6
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 17:22:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "organizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('organizacion')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('organizacion')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/or...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/organizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php
+---
+2014/11/02 17:23:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=54565a78071c6
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:01:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "organizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('organizacion')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('organizacion')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/or...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/organizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/site/index
+---
+2014/11/02 18:01:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "organizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('organizacion')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('organizacion')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/or...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/organizacion
+---
+2014/11/02 18:01:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "organizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('organizacion')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('organizacion')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/or...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/organizacion
+---
+2014/11/02 18:01:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "organizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('organizacion')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('organizacion')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/or...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/organizacion
+---
+2014/11/02 18:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "organizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('organizacion')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('organizacion')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/or...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/organizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/site/index
+---
+2014/11/02 18:03:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "organizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('organizacion')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('organizacion')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/or...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/organizacion
+---
+2014/11/02 18:03:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "organizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('organizacion')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('organizacion')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/or...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/organizacion
+---
+2014/11/02 18:03:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=545663f774d0a
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:03:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "organizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('organizacion')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('organizacion')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/or...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/organizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:04:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "organizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('organizacion')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('organizacion')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/or...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/organizacion
+---
+2014/11/02 18:05:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "organizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('organizacion')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('organizacion')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/or...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/organizacion
+---
+2014/11/02 18:05:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "organizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('organizacion')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('organizacion')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/or...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/organizacion
+---
+2014/11/02 18:06:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "organizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('organizacion')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('organizacion')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/or...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/organizacion
+---
+2014/11/02 18:10:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "organizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('organizacion')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('organizacion')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/or...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/organizacion
+---
+2014/11/02 18:10:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=545665740c0af
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:10:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/registrarOrganizacion".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/registrar...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/users/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:12:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=545665fd7c602
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "registrarOrganizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('registrarOrgani...')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/re...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:16:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=545666eaa453d
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:19:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=545667aed7f78
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:19:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "registrarOrganizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('registrarOrgani...')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/re...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:22:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "registrarOrganizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('registrarOrgani...')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('organizacion/re...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:22:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5456684f28c95
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:22:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "registrarOrganizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('registrarOrgani...')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "registrarOrganizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('registrarOrgani...')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:27:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "registrarOrganizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('registrarOrgani...')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:28:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=545669d7e6fb1
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:28:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "registrarOrganizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('registrarOrgani...')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:44:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "registrarOrganizacion".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('registrarOrgani...')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 18:47:41 [error] [php] Undefined variable: verifyCode (C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\views\registrarOrganizacion\registrarOrganizacion.php:205)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): registrarOrganizacionController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): registrarOrganizacionController->renderPartial()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(28): registrarOrganizacionController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): registrarOrganizacionController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): registrarOrganizacionController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): registrarOrganizacionController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CWebApplication->run()
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\views\registrarOrganizacion\registrarOrganizacion.php (205)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php (28)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/11/02 18:48:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54566e63b7896
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 19:01:41 [error] [exception.CException] exception 'CException' with message 'CCaptchaValidator.action "captcha" is invalid. Unable to find such an action in the current controller.' in C:\xampp\htdocs\yii\framework\validators\CCaptchaValidator.php:77
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CCaptchaValidator.php(49): CCaptchaValidator->getCaptchaAction()
+#1 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CCaptchaValidator->validateAttribute(Object(CodigoVerificacion), 'verifyCode')
+#2 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(CodigoVerificacion), NULL)
+#3 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(38): CModel->validate()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 19:01:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54567185bf518
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 19:02:38 [error] [exception.CException] exception 'CException' with message 'CCaptchaValidator.action "captcha" is invalid. Unable to find such an action in the current controller.' in C:\xampp\htdocs\yii\framework\validators\CCaptchaValidator.php:77
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CCaptchaValidator.php(49): CCaptchaValidator->getCaptchaAction()
+#1 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CCaptchaValidator->validateAttribute(Object(CodigoVerificacion), 'verifyCode')
+#2 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(CodigoVerificacion), NULL)
+#3 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(40): CModel->validate()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 19:02:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=545671beb55f2
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 19:02:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=545671cd3ac57
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 19:18:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54567579f118e
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 19:18:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=545675822fda4
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 19:18:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=545675898a499
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:04:04 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `organizacion` (`nit`, `ciudad`, `nombre`, `sigla`, `direccion`, `telefono`, `fax`, `email`, `sitioWeb`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php (41)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/11/02 21:04:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `organizacion` (`nit`, `ciudad`, `nombre`, `sigla`, `direccion`, `telefono`, `fax`, `email`, `sitioWeb`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(41): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:04:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54568e344d6c3
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:04:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54568e50931bd
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:05:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54568e6c48bff
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:11:17 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `organizacion` (`nit`, `ciudad`, `nombre`, `sigla`, `direccion`, `telefono`, `fax`, `email`, `sitioWeb`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php (43)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/11/02 21:11:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `organizacion` (`nit`, `ciudad`, `nombre`, `sigla`, `direccion`, `telefono`, `fax`, `email`, `sitioWeb`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(43): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:11:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54568fe5e2c12
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:12:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=5456903f98a0b
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:13:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54569082f3366
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:21:21 [error] [exception.CException] exception 'CException' with message 'Property "Organizacion.genero" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('genero')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('genero')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1802): CHtml::resolveValue(Object(Organizacion), 'genero')
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(847): CHtml::activeDropDownList(Object(Organizacion), 'genero', Array, Array)
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\views\registrarOrganizacion\registrarOrganizacion.php(91): CActiveForm->dropDownList(Object(Organizacion), 'genero', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('/registrarOrgan...', Array, true)
+#9 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(28): CController->render('/registrarOrgan...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:21:24 [error] [exception.CException] exception 'CException' with message 'Property "Organizacion.genero" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('genero')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('genero')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1802): CHtml::resolveValue(Object(Organizacion), 'genero')
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(847): CHtml::activeDropDownList(Object(Organizacion), 'genero', Array, Array)
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\views\registrarOrganizacion\registrarOrganizacion.php(91): CActiveForm->dropDownList(Object(Organizacion), 'genero', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('/registrarOrgan...', Array, true)
+#9 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(28): CController->render('/registrarOrgan...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:22:57 [error] [exception.CException] exception 'CException' with message 'Property "Organizacion.tipoDocumento" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('tipoDocumento')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('tipoDocumento')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1802): CHtml::resolveValue(Object(Organizacion), 'tipoDocumento')
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(847): CHtml::activeDropDownList(Object(Organizacion), 'tipoDocumento', Array, Array)
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\views\registrarOrganizacion\registrarOrganizacion.php(91): CActiveForm->dropDownList(Object(Organizacion), 'tipoDocumento', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('/registrarOrgan...', Array, true)
+#9 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(28): CController->render('/registrarOrgan...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:23:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=545692c0c8363
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:24:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=545693144b66b
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:25:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=5456931faa496
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:26:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54569366b8b4f
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:27:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=545693a9d01ac
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:29:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54569418a5767
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:29:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54569446d1cf0
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:31:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54569495eccad
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:31:57 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `organizacion` (`nit`, `ciudad`, `nombre`, `sigla`, `direccion`, `telefono`, `fax`, `email`, `sitioWeb`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php (44)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/11/02 21:31:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `organizacion` (`nit`, `ciudad`, `nombre`, `sigla`, `direccion`, `telefono`, `fax`, `email`, `sitioWeb`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(44): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:31:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=545694bda8415
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:32:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=545694c421d2e
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:34:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54569558b817a
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:34:46 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '22' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `organizacion` (`nit`, `ciudad`, `nombre`, `sigla`, `direccion`, `telefono`, `fax`, `email`, `sitioWeb`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php (44)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/11/02 21:34:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '22' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `organizacion` (`nit`, `ciudad`, `nombre`, `sigla`, `direccion`, `telefono`, `fax`, `email`, `sitioWeb`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(44): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=5456956636275
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:35:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54569592a270b
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 21:46:14 [error] [php] Object of class Usuario could not be converted to string (C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php:559)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): registrarOrganizacionController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): registrarOrganizacionController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): registrarOrganizacionController->renderPartial()
+#3 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(25): registrarOrganizacionController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): registrarOrganizacionController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): registrarOrganizacionController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): registrarOrganizacionController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CWebApplication->run()
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\views\registrarOrganizacion\registrarOrganizacion.php (28)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php (25)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/11/02 21:47:21 [error] [php] Object of class Usuario could not be converted to string (C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php:559)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): registrarOrganizacionController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): registrarOrganizacionController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): registrarOrganizacionController->renderPartial()
+#3 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(25): registrarOrganizacionController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): registrarOrganizacionController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): registrarOrganizacionController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): registrarOrganizacionController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CWebApplication->run()
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\views\registrarOrganizacion\registrarOrganizacion.php (28)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php (25)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/11/02 21:47:22 [error] [php] Object of class Usuario could not be converted to string (C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php:559)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): registrarOrganizacionController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): registrarOrganizacionController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): registrarOrganizacionController->renderPartial()
+#3 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(25): registrarOrganizacionController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): registrarOrganizacionController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): registrarOrganizacionController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): registrarOrganizacionController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CWebApplication->run()
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\views\registrarOrganizacion\registrarOrganizacion.php (28)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php (25)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/11/02 21:47:25 [error] [php] Object of class Usuario could not be converted to string (C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php:559)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): registrarOrganizacionController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): registrarOrganizacionController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): registrarOrganizacionController->renderPartial()
+#3 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(25): registrarOrganizacionController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): registrarOrganizacionController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): registrarOrganizacionController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): registrarOrganizacionController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CWebApplication->run()
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\views\registrarOrganizacion\registrarOrganizacion.php (28)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php (25)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/11/02 22:00:39 [error] [php] Object of class Usuario could not be converted to string (C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php:559)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): registrarOrganizacionController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): registrarOrganizacionController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): registrarOrganizacionController->renderPartial()
+#3 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(25): registrarOrganizacionController->render()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(286): registrarOrganizacionController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): registrarOrganizacionController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): registrarOrganizacionController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CWebApplication->run()
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\views\registrarOrganizacion\registrarOrganizacion.php (29)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php (25)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/11/02 22:01:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54569b8e8113c
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 22:01:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `organizacion` (`nit`, `ciudad`, `nombre`, `sigla`, `direccion`, `telefono`, `fax`, `email`, `sitioWeb`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php (40)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/11/02 22:01:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `organizacion` (`nit`, `ciudad`, `nombre`, `sigla`, `direccion`, `telefono`, `fax`, `email`, `sitioWeb`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(40): CActiveRecord->save()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 22:01:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54569b9be22c6
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 22:01:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54569ba529458
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 22:10:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=54569dcc57681
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 22:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=54569dcfb1c05
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 22:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=54569e3fb3645
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 22:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=54569f5b8c2c5
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 22:25:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=5456a14807be1
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 22:49:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=5456a6d2034b7
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 22:49:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=5456a6e2e668b
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 22:49:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=5456a704f2be6
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 22:50:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=5456a72937807
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 22:51:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=5456a74b93cb3
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 22:51:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=5456a76787b10
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 22:51:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5456a77384130
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 22:55:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5456a864ea0e1
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 23:32:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5456b0e7c4b70
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 23:36:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5456b1df1b129
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 23:36:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('persona/captcha')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/captcha?v=5456b1df1b129
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---
+2014/11/02 23:39:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('captcha')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('captcha')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/captcha?v=5456b29dd8811
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/02 23:40:18 [error] [exception.CException] exception 'CException' with message 'Property "CodigoVerificacion.Codigo de verificación" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('Codigo de verif...')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(CodigoVerificacion), 'Codigo de verif...')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(CodigoVerificacion), 'Codigo de verif...', Array)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(CodigoVerificacion), 'Codigo de verif...', Array)
+#4 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\views\registrarOrganizacion\registrarOrganizacion.php(215): CActiveForm->textField(Object(CodigoVerificacion), 'Codigo de verif...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('/registrarOrgan...', Array, true)
+#9 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\registrarOrganizacionController.php(25): CController->render('/registrarOrgan...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): registrarOrganizacionController->actionregistrarOrganizacion()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('registrarOrgani...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('registrarOrgani...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/persona
+---

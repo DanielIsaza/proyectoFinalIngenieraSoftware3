@@ -33,51 +33,6 @@ class SiteController extends Controller
 		$this->render('index',array("model"=>$model));
 
 	}
-/**
- *metodo que llama a la interfaz registrar persona
-	*/
-	
-
-	/**
-	*
-	*/
-	public function actionOrganizacion()
-	{
-
-	    $model=new Organizacion;
-		$modelu = new Usuario;
-		$modelrp= new Representantelegal;
-		$modelad = new Administrador;
-		$verifyCode= new CodigoVerificacion;
-
-	    // uncomment the following code to enable ajax-based validation
-	    /*
-	    if(isset($_POST['ajax']) && $_POST['ajax']==='organizacion-organizacion-form')
-	    {
-	        echo CActiveForm::validate($model);
-	        Yii::app()->end();
-	    }
-	    */
-	
-		if(isset($_POST['Organizacion']) and isset($_POST['Usuario']) and isset($_POST['Representantelegal']))
-	    {
-	    	$modelu->attributes=$_POST['Usuario'];
-			$modelu->password=sha1($_POST['Usuario']['password']);
-	        $model->attributes=$_POST['Organizacion'];
-	        $modelrp->attributes=$_POST['Representantelegal'];
-    		$verifyCode->attributes=$_POST['CodigoVerificacion'];
-
-	        if($verifyCode->validate())
-	        {
-	        	$modelu->save();
-	        	$model->save();
-	        	$modelrp->save();
-
-	            // form inputs are valid, do something here
-	        }
-	    }
-	    $this->render('organizacion',array('model'=>$model,'modelu'=>$modelu,'modelad'=>$modelad,'modelrp'=>$modelrp,'verifyCode'=>$verifyCode));
-	}
 
 	/**
 	 * This is the action to handle external exceptions.

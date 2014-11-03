@@ -68,17 +68,7 @@ $this->breadcrumbs=array(
 		<?php echo $form->error($model,'genero'); ?>
 	</div>
 
-	<div>
-		<?php echo $form->labelEx($model,'fechaNacimiento'); ?>
-		<?php 
-		   $this->widget("zii.widgets.jui.CJuiDatePicker", array(
-		   			"attribute"=>'fechaNacimiento',
-		   			"model"=>$model,
-		   			"language"=>"es",
-		   			"options"=>array("dateFormat"=>"dd-mm-yy")
-		 ))?>
-		<?php echo $form->error($model,'fechaNacimiento'); ?>
-	</div>
+	
 
 
 	<div>
@@ -148,9 +138,8 @@ $this->breadcrumbs=array(
         <?php echo $form->textField($modeldp,'sitioWeb'); ?>
         <?php echo $form->error($modeldp,'sitioWeb'); ?>
     </div>
-
     <div>
-        <?php echo $form->labelEx($modeldr,'ciudad'); ?>
+        <?php echo $form->labelEx($modeldr,'ciudad');?>
         <?php echo $form->dropDownList($modeldr,'ciudad',CHtml::listData(Ciudad::model()->findAll(),"id","nombre")); ?>
         <?php echo $form->error($modeldr,'ciudad'); ?>
     </div>
@@ -202,7 +191,7 @@ $this->breadcrumbs=array(
         <?php echo $form->textField($modeldr,'SitioWeb'); ?>
         <?php echo $form->error($modeldr,'SitioWeb'); ?>
     </div>
-
+    model u
 	 <div >
         <?php echo $form->labelEx($modelu,'login'); ?>
         <?php echo $form->textField($modelu,'login'); ?>

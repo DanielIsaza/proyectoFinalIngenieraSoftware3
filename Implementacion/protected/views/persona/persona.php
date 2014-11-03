@@ -5,9 +5,9 @@
 ?>
 
 <?php
-$this->pageTitle=Yii::app()->name . '- Registro ';
+$this->pageTitle=Yii::app()->name . '- Registro persona';
 $this->breadcrumbs=array(
-	'Resgistro',
+	'Resgistro persona',
 );
 ?>
 
@@ -19,13 +19,14 @@ $this->breadcrumbs=array(
 	// controller action is handling ajax validation correctly.
 	// See class documentation of CActiveForm for details on this,
 	// you need to use the performAjaxValidation()-method described there.
-	'enableAjaxValidation'=>false,
+	'enableAjaxValidation'=>true,
 )); ?>
 
 	<p class="note">Los campos con <span class="required">*</span> son obligatorios.</p>
 
-	<?php echo $form->errorSummary($model,$modelu,$modeldp,$modeldr); ?>
+	<?php echo $form->errorSummary($model); ?>
 <div class="container">
+    <h4>Datos personales:</h4>
 	<div>
 		<?php echo $form->labelEx($model,'tipoDocumento'); ?>
 		<?php echo $form->dropDownList($model,'tipoDocumento',CHtml::listData(Tipodocumento::model()->findAll(),"id","nombre")); ?>
@@ -68,18 +69,25 @@ $this->breadcrumbs=array(
 		<?php echo $form->error($model,'genero'); ?>
 	</div>
 
-	<div>
-		<?php echo $form->labelEx($model,'fechaNacimiento'); ?>
-		<?php 
-		   $this->widget("zii.widgets.jui.CJuiDatePicker", array(
-		   			"attribute"=>'fechaNacimiento',
-		   			"model"=>$model,
-		   			"language"=>"es",
-		   			"options"=>array("dateFormat"=>"dd-mm-yy")
-		 ))?>
-		<?php echo $form->error($model,'fechaNacimiento'); ?>
-	</div>
-
+<div>
+        <?php echo $form->labelEx($model,'fechaNacimiento'); ?>
+        <?php 
+           $this->widget("zii.widgets.jui.CJuiDatePicker", array(
+                    "attribute"=>'fechaNacimiento',
+                    "model"=>$model,
+                    "language"=>"es",
+                    "options"=>array(
+                            "dateFormat"=>"yy-mm-dd",
+                            'showButtonPanel' => true,
+                            'changeYear' => true,
+                            'changeYear' => true,
+                            'yearRange' => '-80:-1',
+                            'minDate' => '-80Y',
+                            'maxDate' => '-1Y',
+                            )
+         ))?>
+        <?php echo $form->error($model,'fechaNacimiento'); ?>
+    </div>
 
 	<div>
 		<?php echo $form->labelEx($model,'ciudadNacimiento'); ?>
@@ -100,7 +108,7 @@ $this->breadcrumbs=array(
 	</div>
 
 </div>
-
+<h4>Dirección profesional:</h4>
 	<div>
         <?php echo $form->labelEx($modeldp,'ciudad'); ?>
         <?php echo $form->dropDownList($modeldp,'ciudad',CHtml::listData(Ciudad::model()->findAll(),"id","nombre")); ?>
@@ -148,7 +156,7 @@ $this->breadcrumbs=array(
         <?php echo $form->textField($modeldp,'sitioWeb'); ?>
         <?php echo $form->error($modeldp,'sitioWeb'); ?>
     </div>
-
+<h4>Dirección de residencia:</h4>
     <div>
         <?php echo $form->labelEx($modeldr,'ciudad'); ?>
         <?php echo $form->dropDownList($modeldr,'ciudad',CHtml::listData(Ciudad::model()->findAll(),"id","nombre")); ?>
@@ -202,13 +210,13 @@ $this->breadcrumbs=array(
         <?php echo $form->textField($modeldr,'SitioWeb'); ?>
         <?php echo $form->error($modeldr,'SitioWeb'); ?>
     </div>
-
+<h4>Datos de logeo:</h4>
 	 <div >
         <?php echo $form->labelEx($modelu,'login'); ?>
         <?php echo $form->textField($modelu,'login'); ?>
         <?php echo $form->error($modelu,'login'); ?>
     </div>
-	
+
 	<div>
         <?php echo $form->labelEx($modelu,'password'); ?>
         <?php echo $form->passwordField($modelu,'password'); ?>
@@ -216,22 +224,22 @@ $this->breadcrumbs=array(
     </div>
 
     <?php if(CCaptcha::checkRequirements()): ?>
-	<div>
-		<?php echo $form->labelEx($verifyCode,'verifyCode'); ?>
-		<?php echo $form->error($verifyCode,'verifyCode'); ?>
-	</div>
-		
-		<div>
-			<?php $this->widget('CCaptcha'); ?>
-		</div>
-		<div>
-		<?php echo $form->textField($verifyCode,'verifyCode'); ?>
-		</div>
+    <div>
+        <?php echo $form->labelEx($verifyCode,'Codigo de verificaci&oacuten'); ?>
+        <?php echo $form->error($verifyCode,'verifyCode'); ?>
+    </div>
+        
+        <div>
+            <?php $this->widget('CCaptcha'); ?>
+        </div>
+        <div>
+        <?php echo $form->textField($verifyCode,'verifyCode'); ?>
+        </div>
 
-		<div class="hint">Por favor ingrese los caracteres indicados en la imagen.
-		<br/>No distinguen entre mayusculas y minusculas.</div>
-	</div>
-	<?php endif; ?>
+        <div class="hint">Por favor ingrese los caracteres indicados en la imagen.
+        <br/>No distinguen entre mayusculas y minusculas.</div>
+    </div>
+    <?php endif; ?>
 
 	<div>
 		<?php echo CHtml::submitButton('Registrar',array("class"=>"btn btn-primary btn-large")); ?>
