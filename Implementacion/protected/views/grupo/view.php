@@ -110,6 +110,14 @@ $this->breadcrumbs=array(
 			
 		</div>
 		<div class="span10">
+			<?php echo count($model->personas)." integrantes" ?>
+		</div>
+	</div>
+	<div class="row-fluid">
+		<div class="span2">
+			
+		</div>
+		<div class="span10">
 			<div class="span5">
 				<?php for ($i=0; $i < count($model->personas); $i+=2) { ?>
 				<div>
@@ -140,8 +148,8 @@ $this->breadcrumbs=array(
 					<h4><?php echo $form->label($model, 'email');?></h4>
 					<?php echo CHtml::value(direccionR::model()->findByPk($model->personas[$i]->direccionR),"email"); ?>
 				</div>
+				<?php } ?>
 			</div>
-			<?php } ?>
 		</div>
 	</div>
 	<?php $this->endWidget(); ?>
