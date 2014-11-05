@@ -31,6 +31,12 @@
 		<?php echo $form->error($model,'paginas'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'nombre'); ?>
+		<?php echo $form->textField($model,'nombre',array('size'=>45,'maxlength'=>45)); ?>
+		<?php echo $form->error($model,'nombre'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

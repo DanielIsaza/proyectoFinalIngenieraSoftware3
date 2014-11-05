@@ -17,5 +17,9 @@
 	<?php echo CHtml::encode($data->paginas); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('nombre')); ?>:</b>
+	<?php echo CHtml::encode($data->nombre); ?>
+	<br />
+
 
 </div>

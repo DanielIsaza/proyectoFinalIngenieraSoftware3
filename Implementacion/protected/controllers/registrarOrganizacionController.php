@@ -42,11 +42,11 @@ class registrarOrganizacionController extends Controller
 
 	        if( $modelrp->save() )
 	        {
-	        	echo "representante";
+	        	echo "El registro fue exitoso!";
 	        }
 	        else
 	        {
-	        	echo "no representante";
+	        	echo "Ha ocurrido un error!";
 	        }
 
 	            // form inputs are valid, do something here

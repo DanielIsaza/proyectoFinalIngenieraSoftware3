@@ -7,6 +7,7 @@
  * @property integer $id
  * @property string $revista
  * @property integer $paginas
+ * @property string $nombre
  *
  * The followings are the available model relations:
  * @property Persona[] $personas
@@ -30,10 +31,10 @@ class Publicacion extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('paginas', 'numerical', 'integerOnly'=>true),
-			array('revista', 'length', 'max'=>45),
+			array('revista, nombre', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, revista, paginas', 'safe', 'on'=>'search'),
+			array('id, revista, paginas, nombre', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -58,6 +59,7 @@ class Publicacion extends CActiveRecord
 			'id' => 'ID',
 			'revista' => 'Revista',
 			'paginas' => 'Paginas',
+			'nombre' => 'Nombre',
 		);
 	}
 
@@ -82,6 +84,7 @@ class Publicacion extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('revista',$this->revista,true);
 		$criteria->compare('paginas',$this->paginas);
+		$criteria->compare('nombre',$this->nombre,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

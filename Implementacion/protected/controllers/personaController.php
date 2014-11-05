@@ -37,16 +37,16 @@ class personaController extends Controller
 		    	
 		    	if($model->save())
 		    	{
-		       		echo "sirvio este mk";
+		       		echo "La persona se registro corresctamente";
 		       	}
 		       	else
 		       	{
-		       		echo "pesaona";
+		       		echo "Ha ocurrido un error!";
 			}
 			}
 			else
 			{
-				echo "pendejo !";
+				echo "Ha ocurrido un error!";
 			}
 				
 		}
