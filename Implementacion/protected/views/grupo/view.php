@@ -101,5 +101,48 @@ $this->breadcrumbs=array(
 			</div>
 		</div>
 	</div>
+	<hr>
+	<div class="span12">
+		<h3 align="center">Integrantes</h3>
+	</div>
+	<div class="row-fluid">
+		<div class="span2">
+			
+		</div>
+		<div class="span10">
+			<div class="span5">
+				<?php for ($i=0; $i < count($model->personas); $i+=2) { ?>
+				<div>
+					<h4><?php echo $form->label($model, 'nombre');?></h4>
+					<?php echo $model->personas[$i]->nombre.' '.$model->personas[$i]->primerApellido.' '.$model->personas[$i]->segundoApellido; ?>
+				</div>
+				<div>
+					<h4><?php echo $form->label($model, 'identificaci&oacuten');?></h4>
+					<?php echo $model->personas[$i]->dni; ?>
+				</div>
+				<div>
+					<h4><?php echo $form->label($model, 'email');?></h4>
+					<?php echo CHtml::value(direccionR::model()->findByPk($model->personas[$i]->direccionR),"email"); ?>
+				</div>
+				<?php } ?>
+			</div>
+			<div class="span5">
+				<?php for ($i=1; $i < count($model->personas); $i+=2) { ?>
+				<div>
+					<h4><?php echo $form->label($model, 'nombre');?></h4>
+					<?php echo $model->personas[$i]->nombre.' '.$model->personas[$i]->primerApellido.' '.$model->personas[$i]->segundoApellido; ?>
+				</div>
+				<div>
+					<h4><?php echo $form->label($model, 'identificaci&oacuten');?></h4>
+					<?php echo $model->personas[$i]->dni; ?>
+				</div>
+				<div>
+					<h4><?php echo $form->label($model, 'email');?></h4>
+					<?php echo CHtml::value(direccionR::model()->findByPk($model->personas[$i]->direccionR),"email"); ?>
+				</div>
+			</div>
+			<?php } ?>
+		</div>
+	</div>
 	<?php $this->endWidget(); ?>
 </div>
