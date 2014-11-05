@@ -135,19 +135,17 @@ $this->breadcrumbs=array(
         <?php echo $form->textField($modelrp,'email'); ?>
         <?php echo $form->error($modelrp,'email'); ?>
     </div>
-
+    <h4>Datos del Administrador:</h4>
 	<div>
         <?php echo $form->labelEx($modelad,'dni'); ?>
         <?php echo $form->textField($modelad,'dni'); ?>
         <?php echo $form->error($modelad,'dni'); ?>
     </div>
-<h4>Datos del Administrador:</h4>
     <div>
         <?php echo $form->labelEx($modelad,'tipoDocumento'); ?>
         <?php echo $form->dropDownList($modelad,'tipoDocumento',CHtml::listData(Tipodocumento::model()->findAll(),"id","nombre")); ?>
         <?php echo $form->error($modelad,'tipoDocumento'); ?>
     </div>
-
     <div>
         <?php echo $form->labelEx($modelad,'organizacion'); ?>
         <?php echo $form->textField($modelad,'organizacion'); ?>

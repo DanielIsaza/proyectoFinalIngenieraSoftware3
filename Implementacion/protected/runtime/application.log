@@ -9587,3 +9587,66 @@ REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizaci
 in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\views\organizacion\view.php (36)
 in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\OrganizacionController.php (56)
 in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php (13)
+2014/11/05 17:57:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6bb4128c/jquery.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6bb4128c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/6bb4128c/jquery.js
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php
+---
+2014/11/05 17:57:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6bb4128c/jquery.yiiactiveform.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6bb4128c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/6bb4128c/jquery.yiiactiveform.js
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php
+---
+2014/11/05 17:57:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6bb4128c/jquery.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6bb4128c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/6bb4128c/jquery.js
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/05 17:57:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6bb4128c/jquery.yiiactiveform.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6bb4128c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/6bb4128c/jquery.yiiactiveform.js
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/05 18:01:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6bb4128c/jquery.yiiactiveform.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6bb4128c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/6bb4128c/jquery.yiiactiveform.js
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/05 18:01:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6bb4128c/jquery.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6bb4128c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/6bb4128c/jquery.js
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
+2014/11/05 18:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6bb4128c/jquery.yiiactiveform.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6bb4128c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/6bb4128c/jquery.yiiactiveform.js
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/registrarOrganizacion/registrarOrganizacion
+---
