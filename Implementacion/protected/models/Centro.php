@@ -8,6 +8,7 @@
  * @property string $nombre
  * @property string $descripcion
  * @property integer $categoria
+ * @property string $sigla
  *
  * The followings are the available model relations:
  * @property Categoriacentro $categoria0
@@ -34,9 +35,10 @@ class Centro extends CActiveRecord
 			array('categoria', 'numerical', 'integerOnly'=>true),
 			array('nombre', 'length', 'max'=>100),
 			array('descripcion', 'length', 'max'=>500),
+			array('sigla', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, nombre, descripcion, categoria', 'safe', 'on'=>'search'),
+			array('id, nombre, descripcion, categoria, sigla', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -63,6 +65,7 @@ class Centro extends CActiveRecord
 			'nombre' => 'Nombre',
 			'descripcion' => 'Descripcion',
 			'categoria' => 'Categoria',
+			'sigla' => 'Sigla',
 		);
 	}
 
@@ -88,6 +91,7 @@ class Centro extends CActiveRecord
 		$criteria->compare('nombre',$this->nombre,true);
 		$criteria->compare('descripcion',$this->descripcion,true);
 		$criteria->compare('categoria',$this->categoria);
+		$criteria->compare('sigla',$this->sigla,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

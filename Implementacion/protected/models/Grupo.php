@@ -14,6 +14,7 @@
  * @property integer $codirector
  * @property integer $granArea
  * @property integer $direccion
+ * @property string $descripcion
  *
  * The followings are the available model relations:
  * @property Areaconocimiento $areaConocimiento0
@@ -44,10 +45,11 @@ class Grupo extends CActiveRecord
 			array('areaConocimiento, director, codirector, granArea, direccion', 'numerical', 'integerOnly'=>true),
 			array('nombre', 'length', 'max'=>45),
 			array('programaPrincipal, programaSecundario', 'length', 'max'=>100),
+			array('descripcion', 'length', 'max'=>500),
 			array('fechaCreacion', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('nombre, fechaCreacion, id, programaPrincipal, programaSecundario, areaConocimiento, director, codirector, granArea, direccion', 'safe', 'on'=>'search'),
+			array('nombre, fechaCreacion, id, programaPrincipal, programaSecundario, areaConocimiento, director, codirector, granArea, direccion, descripcion', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -84,6 +86,7 @@ class Grupo extends CActiveRecord
 			'codirector' => 'Codirector',
 			'granArea' => 'Gran Area',
 			'direccion' => 'Direccion',
+			'descripcion' => 'Descripcion',
 		);
 	}
 
@@ -115,6 +118,7 @@ class Grupo extends CActiveRecord
 		$criteria->compare('codirector',$this->codirector);
 		$criteria->compare('granArea',$this->granArea);
 		$criteria->compare('direccion',$this->direccion);
+		$criteria->compare('descripcion',$this->descripcion,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

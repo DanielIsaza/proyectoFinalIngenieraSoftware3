@@ -9,6 +9,7 @@
  * @property string $descripcion
  * @property integer $areaconocimiento
  * @property integer $privacidad
+ * @property string $link
  *
  * The followings are the available model relations:
  * @property Areaconocimiento $areaconocimiento0
@@ -34,11 +35,11 @@ class Red extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('areaconocimiento, privacidad', 'numerical', 'integerOnly'=>true),
-			array('nombre', 'length', 'max'=>100),
+			array('nombre, link', 'length', 'max'=>100),
 			array('descripcion', 'length', 'max'=>500),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, nombre, descripcion, areaconocimiento, privacidad', 'safe', 'on'=>'search'),
+			array('id, nombre, descripcion, areaconocimiento, privacidad, link', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -67,6 +68,7 @@ class Red extends CActiveRecord
 			'descripcion' => 'Descripcion',
 			'areaconocimiento' => 'Areaconocimiento',
 			'privacidad' => 'Privacidad',
+			'link' => 'Link',
 		);
 	}
 
@@ -93,6 +95,7 @@ class Red extends CActiveRecord
 		$criteria->compare('descripcion',$this->descripcion,true);
 		$criteria->compare('areaconocimiento',$this->areaconocimiento);
 		$criteria->compare('privacidad',$this->privacidad);
+		$criteria->compare('link',$this->link,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
