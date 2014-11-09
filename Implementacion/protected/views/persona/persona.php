@@ -276,7 +276,7 @@ $this->breadcrumbs=array(
     <div class="container">
         <?php if(CCaptcha::checkRequirements()): ?>
         <div class="well">
-            <h4>Codigo de verificación</h4>
+            <h4>Código de verificación</h4>
         </div>
             
             <div>
