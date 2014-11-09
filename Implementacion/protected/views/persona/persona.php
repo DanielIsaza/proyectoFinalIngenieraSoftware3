@@ -94,22 +94,34 @@ $this->breadcrumbs=array(
         </div>
         <div class="span12">
             <div class="span4">
-                <?php echo $form->labelEx($model,'fechaNacimiento'); ?>
-                <?php 
-                $this->widget("zii.widgets.jui.CJuiDatePicker", array(
-                        "attribute"=>'fechaNacimiento',
-                        "model"=>$model,
-                        "language"=>"es",
-                        "options"=>array(
-                                "dateFormat"=>"yy-mm-dd",
-                                'showButtonPanel' => true,
-                                'changeYear' => true,
-                                'changeYear' => true,
-                                'yearRange' => '-80:-1',
-                                'minDate' => '-80Y',
-                                'maxDate' => '-1Y',
-                                )
-                ))?>
+
+                <?php echo $form->label($model,'fechaNacimiento'); ?>
+                <?php
+                $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+                'model'=>$model,
+                'attribute'=>'fechaNacimiento',
+                'value'=>$model->fechaNacimiento,
+                'language' => 'es',
+                'htmlOptions' => array('readonly'=>"readonly"),
+                'options'=>array(
+                'autoSize'=>true,
+                'defaultDate'=>$model->fechaNacimiento,
+                'dateFormat'=>'yy-mm-dd',
+                'buttonImage'=>Yii::app()->baseUrl.'/themes/colciencias/img/calendar.png',
+                'buttonImageOnly'=>true,
+                'buttonText'=>'Fecha',
+                'selectOtherMonths'=>true,
+                'showAnim'=>'slide',
+                'showButtonPanel'=>true,
+                'showOn'=>'button',
+                'showOtherMonths'=>true,
+                'changeMonth' => 'true',
+                'changeYear' => 'true',
+                'minDate'=>'0',
+                'maxDate'=> '2024-01-01',
+                ),
+                ));
+                ?>
                 <?php echo $form->error($model,'fechaNacimiento'); ?>
             </div>
         </div>

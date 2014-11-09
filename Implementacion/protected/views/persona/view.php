@@ -10,7 +10,92 @@ $this->breadcrumbs=array(
 <div class="container">
 
 	<?php $form=$this->beginWidget('CActiveForm', array('id'=>'persona-view', 'enableAjaxValidation'=>true,)); ?>
-
+	<div class="span12">
+		<div class="span3">
+			<br>
+			<br>
+			<br>
+			<h4>Trabajos</h4>
+			<div class="well">
+				<h4><i class="icon-folder-open"></i><?php echo ' ' ?>Redes</h4>
+				<?php for ($i=0; $i < count($model->reds); $i++) { ?>
+					<p><?php echo $model->reds[$i]->nombre ?></p>
+				<?php } ?>
+			</div>
+			<div class="well">
+				<h4><i class="icon-comment"></i><?php echo ' ' ?>Grupos</h4>
+				<?php for ($i=0; $i < count($model->grupos1); $i++) { ?>
+					<p><?php echo $model->grupos1[$i]->nombre.' (director)' ?></p>
+				<?php } ?>
+				<?php for ($i=0; $i < count($model->grupos); $i++) { ?>
+					<p><?php echo $model->grupos[$i]->nombre.' (codirector)' ?></p>
+				<?php } ?>
+				<?php for ($i=0; $i < count($model->grupos2); $i++) { ?>
+					<p><?php echo $model->grupos2[$i]->nombre.' (miembro)' ?></p>
+				<?php } ?>
+			</div>
+		</div>
+		<div class="span9">
+			<div class="span12">
+				<h4><?php echo $model->nombre.' '.$model->primerApellido.' '.$model->segundoApellido;?></h4>
+				<div class="panel panel-primary">
+					<div class="panel-body">
+						<h4><i class="icon-briefcase"></i><?php echo ' ' ?>Posición </h4>
+						<hr class="hrb">
+						<h4><?php echo $form->label($model, 'Miembro ');?></h4>
+						<?php echo $model->organizacion0->nombre ?>
+						<br>
+						<br>
+						<h4><i class="icon-user"></i><?php echo ' ' ?>Áreas de actuación </h4>
+						<hr class="hrb">
+						<p>
+							<?php for ($i=0; $i < count($model->proyectos); $i++) { ?>
+								<?php if($i!=count($model->proyectos)-1) { ?>
+									<?php echo $model->proyectos[$i]->nombre.' | ' ;?>
+								<?php } else { ?>
+									<?php echo $model->proyectos[$i]->nombre; ?>
+								<?php } ?>
+							<?php } ?>
+							<?php for ($i=0; $i < count($model->publicacions); $i++) { ?>
+								<?php if(count($model->proyectos)>0) {?>
+									<?php echo ' | '.$model->publicacions[$i]->nombre ?>
+								<?php } else { ?>
+									<?php if($i!=count($model->publicacions)-1) { ?>
+									<?php echo $model->publicacions[$i]->nombre.' | ' ;?>
+									<?php } else { ?>
+										<?php echo $model->publicacions[$i]->nombre; ?>
+									<?php } ?>
+								<?php } ?>
+							<?php } ?>
+						</p>
+						<br>
+						<h4><i class="icon-globe"></i><?php echo ' ' ?>Páginas web </h4>
+						<hr class="hrb">
+						<p><?php echo $model->direccionR0->SitioWeb ?></p>
+						<p><?php echo $model->direccionP0->sitioWeb ?></p>
+						<br>
+						<h4><i class="icon-search"></i><?php echo ' ' ?>Lineas de investigación </h4>
+						<hr class="hrb">
+						<?php $areas; ?>
+						<?php for ($i=0; $i < count($model->proyectos); $i++) { 
+							$areas[$i]=areaConocimiento::model()->find('id='.$model->proyectos[$i]->areaConocimiento);
+						} ?>
+						<?php $areasnombre; ?>
+						<?php for ($i=0, $j=0; $i < count($areas); $i++) { 
+							if($areas[$i]!=null){
+								$areasnombre[$j]=$areas[$i]->nombre;
+								$j++;
+							}
+						} ?>
+						<?php  for ($i=0; $i < count($areasnombre); $i++) { ?>
+							<p><?php echo $areasnombre[$i] ?></p>
+						<?php } ?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 
 	<div class="span12">
 		<h2 align="center">Datos personales</h2>
 	</div>
@@ -30,18 +115,6 @@ $this->breadcrumbs=array(
 		 	<div>
 		 		<h4><?php echo $form->label($model, 'ciudadExpedicion');?></h4>
 				<?php echo $form->label($model, CHtml::value(ciudad::model()->findByPk($model->ciudadExpedicion),"nombre")) ;?>
-		 	</div>
-		 	<div>
-		 		<h4><?php echo $form->label($model, 'nombre');?></h4>
-		 		<?php echo $form->label($model, $model->nombre);?>
-		 	</div>
-		 	<div>
-		 		<h4><?php echo $form->label($model, 'primerApellido');?></h4>
-		 		<?php echo $form->label($model, $model->primerApellido);?>
-		 	</div>
-		 	<div>
-		 		<h4><?php echo $form->label($model, 'segundoApellido');?></h4>
-		 		<?php echo $form->label($model, $model->segundoApellido);?>
 		 	</div>
 		</div>
 		<div class="span5">
@@ -164,5 +237,6 @@ $this->breadcrumbs=array(
 		 	</div>
 		</div>
 	</div>
+	-->
 	<?php $this->endWidget(); ?>
 </div>
