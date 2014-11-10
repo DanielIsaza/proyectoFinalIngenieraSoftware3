@@ -33,13 +33,12 @@
 	<?php echo CHtml::encode($data->direccionR); ?>
 	<br />
 
-	<?php 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('direccionP')); ?>:</b>
 	<?php echo CHtml::encode($data->direccionP); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('usuario')); ?>:</b>
-	<?php echo CHtml::listData(usuario::model()->findByPk($data->usuario),"nombre"; ?>
+	<?php echo CHtml::encode($data->usuario0->login); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('tipoDocumento')); ?>:</b>
@@ -61,7 +60,6 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('organizacion')); ?>:</b>
 	<?php echo CHtml::encode($data->organizacion); ?>
 	<br />
-
-	 ?>
+	<br>
 
 </div>

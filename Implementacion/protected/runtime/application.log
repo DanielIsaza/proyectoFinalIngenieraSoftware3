@@ -18894,3 +18894,129 @@ Stack trace:
 REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/6bb4128c/jquery.ba-bbq.js
 HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/evento/index
 ---
+2014/11/10 19:17:12 [error] [php] Missing argument 3 for CHtml::listData(), called in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\views\persona\_view.php on line 41 and defined (C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php:2073)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): personaController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(291): personaController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#3 unknown(0): CListView->renderSection()
+#4 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#5 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(135): CListView->renderContent()
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(173): CListView->run()
+#7 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\views\persona\index.php(20): personaController->widget()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): personaController->renderInternal()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(869): personaController->renderFile()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(782): personaController->renderPartial()
+#12 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\personaController.php(93): personaController->render()
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): personaController->actionIndex()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(286): personaController->runAction()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(265): personaController->runActionWithFilters()
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): personaController->run()
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CWebApplication->run()
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/index
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\views\persona\_view.php (41)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\views\persona\index.php (20)
+in C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\protected\controllers\personaController.php (93)
+2014/11/10 19:19:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6bb4128c/jquery.ba-bbq.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6bb4128c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/6bb4128c/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/index
+---
+2014/11/10 19:19:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6bb4128c/jquery.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6bb4128c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/6bb4128c/jquery.js
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/index
+---
+2014/11/10 19:19:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d11f6728/listview/styles.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d11f6728...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/d11f6728/listview/styles.css
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/index
+---
+2014/11/10 19:19:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6bb4128c/jquery.ba-bbq.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6bb4128c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/6bb4128c/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/index
+---
+2014/11/10 19:20:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d11f6728/listview/styles.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d11f6728...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/d11f6728/listview/styles.css
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/index
+---
+2014/11/10 19:20:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6bb4128c/jquery.ba-bbq.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6bb4128c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/6bb4128c/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/index
+---
+2014/11/10 19:20:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6bb4128c/jquery.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6bb4128c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/6bb4128c/jquery.js
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/index
+---
+2014/11/10 19:20:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6bb4128c/jquery.ba-bbq.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6bb4128c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/6bb4128c/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/index
+---
+2014/11/10 19:20:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d11f6728/listview/styles.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d11f6728...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/d11f6728/listview/styles.css
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/index
+---
+2014/11/10 19:20:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6bb4128c/jquery.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6bb4128c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/6bb4128c/jquery.js
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/index
+---
+2014/11/10 19:20:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/6bb4128c/jquery.ba-bbq.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/6bb4128c...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/6bb4128c/jquery.ba-bbq.js
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/index
+---
