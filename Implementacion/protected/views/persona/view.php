@@ -74,7 +74,7 @@ $this->breadcrumbs=array(
 						<p><?php echo $model->direccionR0->SitioWeb ?></p>
 						<p><?php echo $model->direccionP0->sitioWeb ?></p>
 						<br>
-						<h4><i class="icon-search"></i><?php echo ' ' ?>Lineas de investigación </h4>
+						<h4><i class="icon-search"></i><?php echo ' ' ?>Líneas de investigación </h4>
 						<hr class="hrb">
 						<?php $areas; ?>
 						<?php for ($i=0; $i < count($model->proyectos); $i++) { 

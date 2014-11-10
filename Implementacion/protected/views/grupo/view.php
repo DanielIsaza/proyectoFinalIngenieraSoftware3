@@ -10,6 +10,91 @@ $this->breadcrumbs=array(
 
 <div class="container">
 	<?php $form=$this->beginWidget('CActiveForm', array('id'=>'grupo-view', 'enableAjaxValidation'=>true,)); ?>
+	<div class="row-fluid">
+		<div class="span3">
+			<h4>Datos básicos</h4>
+			<div class="well">
+				<?php echo $model->descripcion; ?>
+			</div>
+			<br>
+			<h4>Perfiles</h4>
+			<div class="well">
+				<?php echo 'Miembros | '.(count($model->personas)); ?>
+			</div>
+			<a href=""><p align="right">Todos los miembros</p></a>
+		</div>
+		<div class="span9">
+			<div class="row-fluid">
+				<h4><?php echo $model->nombre; ?></h4>
+				<div class="panel panel-primary">
+					<div class="panel-body">
+						<h4>Sectores de aplicación </h4>
+						<?php $organizaciones; ?>
+						<?php for ($i=0; $i < count($model->personas); $i++) { 
+							$organizaciones[]=$model->personas[$i]->organizacion0;
+						} ?>
+						<?php $organizacionesid; ?>
+						<?php for ($i=0; $i < count($organizaciones); $i++) { 
+							if($organizaciones[$i]!=null){
+								$organizacionesid[]=$organizaciones[$i]->nit;
+							}
+						} ?>
+						<?php $organizacionesid=array_unique($organizacionesid); $organizacionesid=array_values($organizacionesid); ?>
+						<?php for ($i=0; $i < count($organizacionesid); $i+=2) { ?>
+						<hr class="hrb">
+							<div class="row-fluid">
+								<div class="span6">
+									<h4><?php $organi=organizacion::model()->findByPk($organizacionesid[$i]); 
+									echo $organi->nombre;
+									?></h4>
+									<?php echo count($organi->personas).' miembros'; ?>
+								</div>
+								<?php if(($i+1)!=count($organizacionesid)) {?>
+									<div class="span6">
+										<h4><?php $organi=organizacion::model()->findByPk($organizacionesid[$i+1]); 
+										echo $organi->nombre;
+										?></h4>
+										<?php echo count($organi->personas).' miembros'; ?>
+									</div>
+								<?php } ?>
+							</div>
+						<?php } ?>
+					</div>
+				</div>
+			</div>
+			<div class="row-fluid">
+				<div class="span6">
+					<div class="panel panel-primary">
+						<div class="panel-body">
+							<h4>Líneas de investigación</h4>
+							<hr class="hrb">
+							<?php echo $model->areaConocimiento0->nombre; ?>
+						</div>
+					</div>
+				</div>
+				<div class="span6">
+					<div class="panel panel-primary">
+						<div class="panel-body">
+							<h4><?php echo count($model->personas).' miembros' ?></h4>
+							<hr class="hrb">
+							<p>
+							<?php for ($i=0; $i < count($model->personas); $i++) { 
+								if($i<(count($model->personas)-1)){
+									echo $model->personas[$i]->nombre.' | ';
+								}
+								else{
+									echo $model->personas[$i]->nombre;
+								}
+							} ?>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 
 	<div class="span12">
 		<h2 align="center">Datos del grupo</h2>
 	</div>
@@ -154,3 +239,4 @@ $this->breadcrumbs=array(
 	</div>
 	<?php $this->endWidget(); ?>
 </div>
+-->
