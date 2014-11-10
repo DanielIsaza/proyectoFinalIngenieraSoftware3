@@ -241,6 +241,11 @@ $this->breadcrumbs=array(
 	<div class="hint">Por favor ingrese los caracteres indicados en la imagen.
 	<br/>No distinguen entre mayusculas y minusculas.</div>
 	<?php endif; ?>
+
+    <div>
+         <input type="checkbox" name="TerminosCondiciones"/> <?php echo $form->labelEx($modelu,'Acepto Terminos y condiciones'); ?>        
+    <div/>
+    
 	<div>
 		<?php echo CHtml::submitButton('Registrar',array("class"=>"btn btn-primary btn-large")); ?>
 	</div>
