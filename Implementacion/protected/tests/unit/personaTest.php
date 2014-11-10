@@ -1,31 +1,23 @@
 <?php
-include_once dirname(__FILE__).'/../../controllers/personaController.php';
-class personaTest extends WebTestCase
+class personaTest extends PHPUnit_Framework_TestCase
 {
-	protected $personaController;
+	 public function testCreate()
+	 {
+	 	$persona= new Persona;
+	 	$persona->dni=3;
+	 	$persona->nombre="danilo";
+	 	$persona->primerApellido="Perez";
+	 	$persona->segundoApellido="Fernandez";
+	 	$persona->fechaNacimiento="1993-11-11";
 
-	protected function setUp()
-	{
-		parent::setUp();
-		$this->personaController = new personaController;
-	}
+	 	$this->assertTrue($persona->save());
+	 }
 
-	public function testIndex()
-	{
-		$this->personaController->actionIndex();
-		$this->assertTextPresent('Persona');
-	}
-
-	public function testView()
-	{
-		$this->personaController->actionView();
-		$this->assertTextPresent('Persona');
-	}
-
-	public function testLoadModel()
-	{
-		$aux = $this->loadModel(1);
-		$this->assertTrue(!empty($aux));
-	}
+	 public function testBuscar()
+	 {
+	 	$persona = new Persona;
+	 	$aux = $persona->findByPk(1);
+	 	$this->assertNotNull($aux);
+	 }
 }
 ?>
