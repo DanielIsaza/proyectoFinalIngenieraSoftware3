@@ -4,30 +4,19 @@
 ?>
 
 <div class="view">
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id')); ?>:</b>
-	<?php echo CHtml::link(CHtml::encode($data->id), array('view', 'id'=>$data->id)); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('nombre')); ?>:</b>
-	<?php echo CHtml::encode($data->nombre); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('tipo')); ?>:</b>
-	<?php echo CHtml::encode($data->tipo); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('fecha')); ?>:</b>
-	<?php echo CHtml::encode($data->fecha); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('expositor')); ?>:</b>
-	<?php echo CHtml::encode($data->expositor); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('informacion')); ?>:</b>
-	<?php echo CHtml::encode($data->informacion); ?>
-	<br />
-
-
+	<div class="panel panel-primary">
+		<div class="panel-body">
+			<b>Nombre: </b>
+			<?php echo CHtml::encode($data->nombre); ?>
+			<br />
+			<b>Identificación: </b>
+			<?php echo CHtml::link(CHtml::encode($data->id), array('view', 'id'=>$data->id)); ?>
+			<br />
+			<b>Fecha: </b>
+			<?php echo CHtml::encode($data->fecha); ?>
+			<br />
+			<b>Expositor: </b>
+			<?php echo CHtml::encode($data->expositor0->nombre).' ('.CHtml::link($data->expositor0->dni,array('persona/view','id'=>$data->expositor0->dni)).')'; ?>
+		</div>
+	</div>
 </div>
