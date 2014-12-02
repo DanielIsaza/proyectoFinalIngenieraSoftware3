@@ -36,10 +36,10 @@ class Direccionp extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('ciudad, telFijo', 'numerical', 'integerOnly'=>true),
+			array('ciudad, telFijo', 'numerical', 'integerOnly'=>true,'message'=>'Este campo solo acepta numeros'),
 			array('direccion, barrio, telFijo, apartadoPostal, codigoPostal, email, sitioWeb', 'length', 'max'=>45),
-			array('email','email'),
-			array('sitioWeb','url'),
+			array('email','email','message'=>'El formato del mensaje es incorrecto'),
+			array('sitioWeb','url','message'=>'El formato de la pagina web es incorrecto'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, direccion, barrio, telFijo, apartadoPostal, codigoPostal, email, sitioWeb, ciudad', 'safe', 'on'=>'search'),

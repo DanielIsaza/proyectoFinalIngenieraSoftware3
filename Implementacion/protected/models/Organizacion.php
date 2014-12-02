@@ -41,9 +41,11 @@ class Organizacion extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nit', 'required'),
-			array('nit, ciudad, usuario', 'numerical', 'integerOnly'=>true),
+			array('nit, nombre', 'required','message'=>'Este campo no puede ser vacio'),
+			array('nit, ciudad, usuario, fax, telefono', 'numerical', 'integerOnly'=>true,'message'=>'Este campo solo admite numeros'),
 			array('nombre, sigla, direccion, telefono, fax, email, sitioWeb', 'length', 'max'=>45),
+			array('email','email','message'=>'El formato del Email es incorrecto'),
+			array('sitioWeb','url','message'=>'El formato de la pagina web es incorrecto'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('nit, nombre, sigla, direccion, telefono, fax, email, sitioWeb, ciudad, usuario', 'safe', 'on'=>'search'),

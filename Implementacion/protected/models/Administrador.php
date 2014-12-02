@@ -36,9 +36,10 @@ class Administrador extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('dni', 'required'),
-			array('dni, tipoDocumento, organizacion', 'numerical', 'integerOnly'=>true),
+			array('dni', 'required','message'=>'Este campo no puede ser vacio'),
+			array('dni, tipoDocumento, organizacion,telFijo', 'numerical', 'integerOnly'=>true,'message'=>'Este campo solo admite numeros'),
 			array('nombre, primerApellido, segundoApellido, cargo, telFijo, email', 'length', 'max'=>45),
+			array('email','email','message'=>'El formato del Email es incorrecto'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('dni, nombre, primerApellido, segundoApellido, cargo, telFijo, email, tipoDocumento, organizacion', 'safe', 'on'=>'search'),

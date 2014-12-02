@@ -12,17 +12,10 @@ class registrarOrganizacionController extends Controller
 		$modelu = new Usuario;
 		$modelrp= new Representantelegal;
 		$modelad = new Administrador;
-		$verifyCode= new CodigoVerificacion;
-		$msg = '';
-
-	    // uncomment the following code to enable ajax-based validation
-	    
-	    if(isset($_POST['ajax']) && $_POST['ajax']==='organizacion-organizacion-form')
-	    {
-	        echo CActiveForm::validate($model);
-	        Yii::app()->end();
-	    }	    
+		$verifyCode= new CodigoVerificacion;    
 	
+		$this->performAjaxValidation(array($model,$modelrp,$modelad,$modelu));
+
 	    $this->render('/registrarOrganizacion/registrarOrganizacion',array('model'=>$model,'modelu'=>$modelu,'modelad'=>$modelad,'modelrp'=>$modelrp,'verifyCode'=>$verifyCode));
 
 		if(isset($_POST['Organizacion']) and isset($_POST['Usuario']) and isset($_POST['Representantelegal']))
@@ -43,14 +36,12 @@ class registrarOrganizacionController extends Controller
 
 	        if( $modelrp->save() )
 	        {
-	        	$msg "El registro fue exitoso!";
+	        	echo "El registro fue exitoso!";
 	        }
 	        else
 	        {
-	        	$msg "Ha ocurrido un error!";
+	        	echo "Ha ocurrido un error!";
 	        }
-
-	            // form inputs are valid, do something here
 	    }
 	}
 
@@ -71,6 +62,15 @@ class registrarOrganizacionController extends Controller
 				'class'=>'CViewAction',
 			),
 		);
+	}
+
+	protected function performAjaxValidation($models)
+	{
+		if(isset($_POST['ajax']) && $_POST['ajax']==='organizacion-organizacion-form')
+	    {
+	        echo CActiveForm::validate($models);
+	        Yii::app()->end();
+	    }
 	}
 }
 ?>

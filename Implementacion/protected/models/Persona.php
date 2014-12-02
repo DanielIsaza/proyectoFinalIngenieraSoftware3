@@ -57,8 +57,8 @@ class Persona extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('dni', 'required'),
-			array('dni, direccionR, direccionP, usuario, tipoDocumento, genero, ciudadExpedicion, ciudadNacimiento, organizacion', 'numerical', 'integerOnly'=>true),
+			array('dni','required','message'=>'Este campo no puede ser vacio'),
+			array('dni, direccionR, direccionP, usuario, tipoDocumento, genero, ciudadExpedicion, ciudadNacimiento, organizacion', 'numerical', 'integerOnly'=>true,'message'=>'Este campo solo acepta numeros'),
 			array('nombre, primerApellido, segundoApellido, nombreBibliografico', 'length', 'max'=>45),
 			array('fechaNacimiento', 'safe'),
 			// The following rule is used by search().

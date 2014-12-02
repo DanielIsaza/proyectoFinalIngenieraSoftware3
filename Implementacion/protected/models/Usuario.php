@@ -30,7 +30,8 @@ class Usuario extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('login, password','required'),
+			array('login, password','required','message'=>'Este campo no puede ser vacio'),
+			array('login','unique','message'=>'El usuario ingresado ya se encuentra registrado'),
 			array('password, login', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.

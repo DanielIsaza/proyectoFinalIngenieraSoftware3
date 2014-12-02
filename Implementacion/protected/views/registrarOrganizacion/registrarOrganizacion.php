@@ -25,6 +25,9 @@ $this->breadcrumbs=array(
 )); ?>
 
 <p class="note">Los campos con <span class="required">*</span> son obligatorios.</p>
+
+<?php echo $form->errorSummary(array($model,$modelrp,$modelad,$modelu)); ?>
+
 <div class="container">
     <div class="well">
         <h4>Datos básicos</h4>
