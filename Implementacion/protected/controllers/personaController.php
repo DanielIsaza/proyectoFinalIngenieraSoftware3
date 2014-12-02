@@ -10,46 +10,44 @@ class personaController extends Controller
 		$modeldp = new Direccionp;
 		$modeldr = new Direccionr;
 		$verifyCode= new CodigoVerificacion;
+		
+		$this->performAjaxValidation(array($model,$modeldr,$modeldp,$modelu));
+	
 
-		if(isset($_POST['ajax']) && $_POST['ajax']==='persona-persona-form')
-	    {
-	        echo CActiveForm::validate($model);
-	        Yii::app()->end();
-	    }
+		    if( isset($_POST['Usuario']) and isset($_POST['DireccionR']) and isset($_POST['Direccionp']) and isset($_POST['Persona']))
+			{
+				$model->attributes=$_POST['Persona'];
+				$modelu->attributes=$_POST['Usuario'];
+				$modelu->password=sha1($_POST['Usuario']['password']);
+				$modeldp->attributes=$_POST['Direccionp'];
+				$modeldr->attributes=$_POST['DireccionR'];
+				$verifyCode->attributes=$_POST['CodigoVerificacion'];			
+
+				if($verifyCode->validate() and $modelu->validate() and $modeldr->validate() and $modeldp->validate())
+			    {
+			    	$modelu->save();
+			    	$modeldr->save();
+			    	$modeldp->save();
+			    	$model->direccionR=$modeldr->id+0;
+			    	$model->direccionP=$modeldp->id+0;
+			    	$model->usuario= $modelu->id+0;
+			    	
+			    	if($model->save())
+			    	{
+			       		echo  "La persona se registro corresctamente";
+			       	}
+			       	else
+			       	{	
+			       		echo "Ha ocurrido un error con la persona";
+					}
+				}
+				else
+				{
+					echo "Ha ocurrido un error!";
+				}
+			}
 
 		$this->render("/persona/persona",array('model'=>$model,'modelu'=>$modelu,'modeldp'=>$modeldp,'modeldr'=>$modeldr,'verifyCode'=>$verifyCode));
-
-	    if( isset($_POST['Usuario']) and isset($_POST['DireccionR']) and isset($_POST['Direccionp']) and isset($_POST['Persona']))
-		{
-			$model->attributes=$_POST['Persona'];
-			$modelu->attributes=$_POST['Usuario'];
-			$modelu->password=sha1($_POST['Usuario']['password']);
-			$modeldp->attributes=$_POST['Direccionp'];
-			$modeldr->attributes=$_POST['DireccionR'];
-			$verifyCode->attributes=$_POST['CodigoVerificacion'];
-			//$verifyCode->validate();
-				
-			if( $modelu->save() and $modeldr->save() and $modeldp->save())
-		    {
-		    	$model->direccionR=$modeldr->id+0;
-		    	$model->direccionP=$modeldp->id+0;
-		    	$model->usuario= $modelu->id+0;
-		    	
-		    	if($model->save())
-		    	{
-		       		echo "La persona se registro corresctamente";
-		       	}
-		       	else
-		       	{
-		       		echo "Ha ocurrido un error!";
-			}
-			}
-			else
-			{
-				echo "Ha ocurrido un error!";
-			}
-				
-		}
 	}
 
 	/**
@@ -108,5 +106,13 @@ class personaController extends Controller
 		return $model;
 	}
 
+	protected function performAjaxValidation($models)
+	{
+		if(isset($_POST['ajax']) && $_POST['ajax']==='persona-persona-form')
+	    {
+	        echo CActiveForm::validate($models);
+	        Yii::app()->end();
+	    }
+	}
 }
 ?>

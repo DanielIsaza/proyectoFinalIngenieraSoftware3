@@ -13,6 +13,7 @@ class registrarOrganizacionController extends Controller
 		$modelrp= new Representantelegal;
 		$modelad = new Administrador;
 		$verifyCode= new CodigoVerificacion;
+		$msg = '';
 
 	    // uncomment the following code to enable ajax-based validation
 	    
@@ -42,11 +43,11 @@ class registrarOrganizacionController extends Controller
 
 	        if( $modelrp->save() )
 	        {
-	        	echo "El registro fue exitoso!";
+	        	$msg "El registro fue exitoso!";
 	        }
 	        else
 	        {
-	        	echo "Ha ocurrido un error!";
+	        	$msg "Ha ocurrido un error!";
 	        }
 
 	            // form inputs are valid, do something here

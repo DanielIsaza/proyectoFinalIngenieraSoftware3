@@ -20,11 +20,13 @@ $this->breadcrumbs=array(
 	// See class documentation of CActiveForm for details on this,
 	// you need to use the performAjaxValidation()-method described there.
 	'enableAjaxValidation'=>true,
+    'clientOptions'=>array("validateOnSubmit"=>true),
     )); ?>
 
 	<p class="note">Los campos con <span class="required">*</span> son obligatorios.</p>
 
-	<?php echo $form->errorSummary($model); ?>
+	<?php echo $form->errorSummary(array($model,$modeldp,$modeldr,$modelu)); ?>
+
     <div class="container">
         <div class="well">
             <h4>Datos personales:</h4>
@@ -117,8 +119,8 @@ $this->breadcrumbs=array(
                 'showOtherMonths'=>true,
                 'changeMonth' => 'true',
                 'changeYear' => 'true',
-                'minDate'=>'0',
-                'maxDate'=> '2024-01-01',
+                'minDate'=>'1900-01-01',
+                'maxDate'=> '0',
                 ),
                 ));
                 ?>
@@ -193,7 +195,7 @@ $this->breadcrumbs=array(
     <hr>
     <div class="container">
         <div class="well">
-            <h4>Dirección profesional</h4>
+            <h4>Dirección profesional:</h4>
         </div>
         <div class="span12">
             <div class="span4">
@@ -290,14 +292,13 @@ $this->breadcrumbs=array(
         <div class="well">
             <h4>Código de verificación</h4>
         </div>
-            
             <div>
                 <?php $this->widget('CCaptcha'); ?>
             </div>
             <div>
             <?php echo $form->textField($verifyCode,'verifyCode'); ?>
+            <?php echo $form->error($verifyCode,'verifyCode'); ?>
             </div>
-
             <div class="hint">Por favor ingrese los caracteres indicados en la imagen.
             <br/>No distinguen entre mayusculas y minusculas.
             <br/>
