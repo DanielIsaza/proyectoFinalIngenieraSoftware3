@@ -20662,3 +20662,93 @@ Stack trace:
 REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/d11f6728/listview/styles.css
 HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/proyecto/index
 ---
+2014/12/03 17:46:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d11f6728/listview/styles.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d11f6728...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/d11f6728/listview/styles.css
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/grupo/index
+---
+2014/12/03 17:46:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d11f6728/listview/styles.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d11f6728...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/d11f6728/listview/styles.css
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/evento/index
+---
+2014/12/03 17:47:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d11f6728/listview/styles.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d11f6728...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/d11f6728/listview/styles.css
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/proyecto/index
+---
+2014/12/03 17:47:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d11f6728/listview/styles.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d11f6728...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/d11f6728/listview/styles.css
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/organizacion/index
+---
+2014/12/03 17:47:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d11f6728/listview/styles.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d11f6728...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/d11f6728/listview/styles.css
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/index
+---
+2014/12/03 17:47:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d11f6728/listview/styles.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d11f6728...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/d11f6728/listview/styles.css
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/index
+---
+2014/12/03 17:47:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d11f6728/listview/styles.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d11f6728...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/d11f6728/listview/styles.css
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/persona/index
+---
+2014/12/03 17:48:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d11f6728/listview/styles.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d11f6728...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/d11f6728/listview/styles.css
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/proyecto/index
+---
+2014/12/03 18:02:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d11f6728/listview/styles.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d11f6728...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/d11f6728/listview/styles.css
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/grupo/index
+---
+2014/12/03 18:03:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d11f6728/listview/styles.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d11f6728...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectoFinalIngenieraSoftware3\Implementacion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectoFinalIngenieraSoftware3/Implementacion/assets/d11f6728/listview/styles.css
+HTTP_REFERER=http://localhost:8090/proyectoFinalIngenieraSoftware3/Implementacion/index.php/grupo/index
+---
