@@ -16,8 +16,6 @@ class registrarOrganizacionController extends Controller
 	
 		$this->performAjaxValidation(array($model,$modelrp,$modelad,$modelu));
 
-	    $this->render('/registrarOrganizacion/registrarOrganizacion',array('model'=>$model,'modelu'=>$modelu,'modelad'=>$modelad,'modelrp'=>$modelrp,'verifyCode'=>$verifyCode));
-
 		if(isset($_POST['Organizacion']) and isset($_POST['Usuario']) and isset($_POST['Representantelegal']))
 	    {
 	    	$modelu->attributes=$_POST['Usuario'];
@@ -27,22 +25,32 @@ class registrarOrganizacionController extends Controller
 	        $modelad->attributes=$_POST['Administrador'];
     		$verifyCode->attributes=$_POST['CodigoVerificacion'];
 
-    		$modelrp->organizacion = $model->nit;
-    		$modelad->organizacion = $model->nit;
-	        //
-	        $modelu->save();
-	        $model->save();
-	        $modelad->save();
 
-	        if( $modelrp->save() )
-	        {
-	        	echo "El registro fue exitoso!";
-	        }
-	        else
-	        {
-	        	echo "Ha ocurrido un error!";
-	        }
+			if($verifyCode->validate() and $modelu->validate() and $modelrp->validate() and $modelad->validate())
+			{   
+	    		$modelrp->organizacion = $model->nit;
+	    		$modelad->organizacion = $model->nit;
+		        //
+		        $modelu->save();
+		        $model->save();
+		        $modelad->save();
+
+		        if( $modelrp->save() )
+		        {
+					$this->redirect(array('site/index'));
+		        }
+		        else
+		        {
+		        	echo "Ha ocurrido un error!";
+		        }
+	    	}
+	    	else
+			{
+				echo "Ha ocurrido un error!";
+			}
 	    }
+
+	    $this->render('/registrarOrganizacion/registrarOrganizacion',array('model'=>$model,'modelu'=>$modelu,'modelad'=>$modelad,'modelrp'=>$modelrp,'verifyCode'=>$verifyCode));
 	}
 
 	/**

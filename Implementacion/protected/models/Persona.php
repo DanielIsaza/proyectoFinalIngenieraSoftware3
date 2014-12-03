@@ -61,6 +61,7 @@ class Persona extends CActiveRecord
 			array('dni, direccionR, direccionP, usuario, tipoDocumento, genero, ciudadExpedicion, ciudadNacimiento, organizacion', 'numerical', 'integerOnly'=>true,'message'=>'Este campo solo acepta numeros'),
 			array('nombre, primerApellido, segundoApellido, nombreBibliografico', 'length', 'max'=>45),
 			array('fechaNacimiento', 'safe'),
+			array('dni','unique','message'=>'El número de documento ya se encuentra registrado'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('dni, nombre, primerApellido, segundoApellido, nombreBibliografico, fechaNacimiento, direccionR, direccionP, usuario, tipoDocumento, genero, ciudadExpedicion, ciudadNacimiento, organizacion', 'safe', 'on'=>'search'),

@@ -34,7 +34,7 @@ class personaController extends Controller
 			    	
 			    	if($model->save())
 			    	{
-			       		echo  "La persona se registro corresctamente";
+						$this->redirect(array('site/index'));
 			       	}
 			       	else
 			       	{	
