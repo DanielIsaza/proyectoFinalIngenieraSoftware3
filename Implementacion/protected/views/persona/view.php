@@ -42,10 +42,12 @@ $this->breadcrumbs=array(
 					<div class="panel-body">
 						<h4><i class="icon-briefcase"></i><?php echo ' ' ?>Posición </h4>
 						<hr class="hrb">
+						<?php if($model->organizacion0!=null) {?>
 						<h4><?php echo $form->label($model, 'Miembro ');?></h4>
 						<?php echo $model->organizacion0->nombre ?>
 						<br>
 						<br>
+						<?php }?>
 						<h4><i class="icon-user"></i><?php echo ' ' ?>Áreas de actuación </h4>
 						<hr class="hrb">
 						<p>
@@ -77,6 +79,7 @@ $this->breadcrumbs=array(
 						<h4><i class="icon-search"></i><?php echo ' ' ?>Líneas de investigación </h4>
 						<hr class="hrb">
 						<?php $areas; ?>
+						<?php if(count($model->proyectos)>0){?>
 						<?php for ($i=0; $i < count($model->proyectos); $i++) { 
 							$areas[$i]=areaConocimiento::model()->find('id='.$model->proyectos[$i]->areaConocimiento);
 						} ?>
@@ -89,6 +92,7 @@ $this->breadcrumbs=array(
 						} ?>
 						<?php  for ($i=0; $i < count($areasnombre); $i++) { ?>
 							<p><?php echo $areasnombre[$i] ?></p>
+						<?php } ?>
 						<?php } ?>
 					</div>
 				</div>

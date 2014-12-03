@@ -5,11 +5,6 @@
 $this->breadcrumbs=array(
 	'Publicacions',
 );
-
-$this->menu=array(
-	array('label'=>'Create Publicacion', 'url'=>array('create')),
-	array('label'=>'Manage Publicacion', 'url'=>array('admin')),
-);
 ?>
 
 <h1>Publicacions</h1>

@@ -4,35 +4,19 @@
 ?>
 
 <div class="view">
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id')); ?>:</b>
-	<?php echo CHtml::link(CHtml::encode($data->id), array('view', 'id'=>$data->id)); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('nombre')); ?>:</b>
-	<?php echo CHtml::encode($data->nombre); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('fechaCreacion')); ?>:</b>
-	<?php echo CHtml::encode($data->fechaCreacion); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('programaPrincipal')); ?>:</b>
-	<?php echo CHtml::encode($data->programaPrincipal); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('programaSecundario')); ?>:</b>
-	<?php echo CHtml::encode($data->programaSecundario); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('areaConocimiento')); ?>:</b>
-	<?php echo CHtml::encode($data->areaConocimiento); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('director')); ?>:</b>
-	<?php echo CHtml::encode($data->director); ?>
-	<br />
-
+	<div class="panel panel-primary">
+		<div class="panel-body">
+			<h4><?php echo CHtml::encode($data->nombre); ?></h4>
+			<hr class="hrb">
+			<b>ID: </b><?php echo CHtml::link(CHtml::encode($data->id), array('view', 'id'=>$data->id)); ?>
+			<br>
+			<b>Fecha creación: </b><?php echo CHtml::encode($data->fechaCreacion); ?>
+			<br>
+			<b>Programa principal: </b><?php echo CHtml::encode($data->programaPrincipal); ?>
+			<br>
+			<b>Área de conocimiento: </b><?php echo CHtml::encode($data->areaConocimiento0->nombre); ?>
+		</div>
+	</div>
 	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('codirector')); ?>:</b>
 	<?php echo CHtml::encode($data->codirector); ?>
